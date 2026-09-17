@@ -1,6 +1,12 @@
 site_name: LLM for Dummies
 site_description: A self-study course from college algebra to building, training, operating and improving open-source LLMs.
-site_url: https://example.com/llm-for-dummies
+# The user site CesarBallardini.github.io carries the custom domain
+# katra.ballardini.com.ar, so this project site is served from that domain
+# under the repository name. Keep the trailing slash: the canonical links,
+# the sitemap and 404.html are all built from this value.
+site_url: https://katra.ballardini.com.ar/llm-for-dummies-study-plan/
+repo_url: https://github.com/CesarBallardini/llm-for-dummies-study-plan
+repo_name: CesarBallardini/llm-for-dummies-study-plan
 
 # Warnings are failures: a dangling reference or a page that moved should make
 # the build go red, not rot silently in the book.
@@ -61,7 +67,13 @@ extra:
     - icon: simple/huggingface
       link: https://huggingface.co
 
-copyright: Built with MkDocs Material
+# Rendered verbatim in the footer of every page, chapters included, so the
+# license notice does not have to be repeated in each chapter file. The link
+# points at the repository so it resolves from the published site and GitHub alike.
+copyright: >-
+  Copyright &copy; 2026 Cesar Ballardini &mdash;
+  <a href="https://github.com/CesarBallardini/llm-for-dummies-study-plan/blob/main/LICENSE">MIT License</a>.
+  Linked third-party resources keep their own licenses.
 
 nav:
   - Home: index.md
@@ -95,3 +107,4 @@ nav:
       - Chapter 22 - Operating and Improving an Open-Source LLM: chapter-22-operate-improve-open-llm/index.md
       - "Chapter 23 - Capstone: Train, Ship and Improve Your Own Model": chapter-23-capstone/index.md
       - Chapter 24 - The Research Reading Loop: chapter-24-research-reading-loop/index.md
+  - License: license.md

@@ -13,9 +13,19 @@ see Git conventions below).
   scope, resources, and URLs.
 - NOT a Python package: `[tool.uv] package = false`. `src/llm_for_dummies/` has only
   `__init__.py`, which exists solely to keep pyright/pyrefly green until chapter code lands.
+- Published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/> by
+  `.github/workflows/deploy-book.yml` on every push to `main`. The domain belongs to the
+  user site CesarBallardini.github.io, which lends it to every project site under the
+  account — there is no CNAME file here, and `site_url` in `mkdocs.yml` must keep matching
+  that path (it feeds canonical links, the sitemap and `404.html`).
 - `books/free/` holds downloaded reference PDFs (gitignored); `books/free/README.md` is the
   tracked manifest of official sources/licenses. Only download from official sources —
   never the z-library/archive mirrors.
+- MIT (`LICENSE`), surfaced in `docs/license.md`, the `copyright` footer of every rendered
+  page, `README.md`, and a note near the top of `STUDY_PLAN.md`/`docs/index.md`. Chapter
+  files carry no per-page notice — the footer covers them. Linked resources are NOT MIT:
+  each keeps its author's terms, so cite the official page and note a restrictive license
+  (CC BY-NC-SA, community model licenses) where it constrains use.
 
 ## Commands
 

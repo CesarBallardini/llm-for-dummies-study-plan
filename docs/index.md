@@ -9,6 +9,11 @@ All required material is free or low-cost, and every resource is linked directly
 The university courses listed publish their lecture videos, slides, and
 assignments openly, even when enrollment for credit is restricted.
 
+This book is released under the [MIT License](license.md). That license covers the
+book and the code written for its milestones, and nothing else: every course,
+textbook, paper, video, dataset, and model linked from the chapters keeps the terms
+of its own author or publisher.
+
 ## How to use this book
 
 The book has six parts and 24 chapters. The chapters are designed to be followed

@@ -5,6 +5,11 @@ operating and improving open-source large language models. The full syllabus is
 described in [STUDY_PLAN.md](STUDY_PLAN.md); this repository renders it as a
 navigable MkDocs book.
 
+Read it at **<https://katra.ballardini.com.ar/llm-for-dummies-study-plan/>**. Every
+push to `main` rebuilds and republishes it through the `Deploy book to Pages`
+workflow; the build runs `mkdocs build --strict`, so a dead nav entry fails the
+deploy rather than reaching the site.
+
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (manages Python 3.14 and the tooling)
@@ -70,3 +75,16 @@ deliberately deferred until real code lands.
 | `mkdocs.yml` | Book navigation and theme |
 | `pyproject.toml` | uv-managed Python 3.14 project |
 | `Makefile` | Single interface for every command |
+| `.github/workflows/` | Builds the book and deploys it to GitHub Pages |
+| `LICENSE` | MIT License covering the book text and its code |
+
+## License
+
+Released under the [MIT License](LICENSE) — the book text, the study plan and the
+code that accompanies the chapters.
+
+The resources the book links to are not covered by it: every course, textbook,
+paper, video, dataset and model keeps the license of its own author or publisher,
+and each is cited through its official page so the terms can be checked there. The
+PDFs downloaded into `books/free/` are covered by the licenses listed in that
+folder's `README.md`.

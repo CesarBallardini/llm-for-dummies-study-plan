@@ -3,6 +3,8 @@ name = "llm-for-dummies"
 version = "0.1.0"
 description = "Book-style MkDocs course: from college algebra to building open-source LLMs"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 # Tooling-only project: a book, not an installable package.
 requires-python = ">=3.14"
 dependencies = [
