@@ -62,7 +62,7 @@ part depends on its mathematics.
 ## The core bookshelf
 
 The books below are referenced in several chapters. Local PDFs of the freely distributable titles are kept in the
-repository `books/` folder; `books/README.md` is the manifest (source, license, and the relevant
+repository `books/free/` folder; `books/free/README.md` is the manifest (source, license, and the relevant
 chapters of each title). The links point to the official pages, and free titles are marked.
 
 | Book | Where it fits | Access |

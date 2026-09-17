@@ -13,9 +13,9 @@ matching `## Chapter NN` section of `STUDY_PLAN.md` — when you edit one, keep 
 in sync.
 
 `src/llm_for_dummies/` contains only `__init__.py`; it exists so the type-check gates
-have something to run against until chapter code lands. `books/*.pdf` is gitignored;
-`books/README.md` is the tracked manifest of official sources and licenses (download only
-from those official URLs, never from mirror sites).
+have something to run against until chapter code lands. `books/free/*.pdf` is gitignored;
+`books/free/README.md` is the tracked manifest of official sources and licenses (download
+only from those official URLs, never from mirror sites).
 
 Each chapter's `## Resources` (docs page) / `**Resources.**` (matching `STUDY_PLAN.md`
 section) follows a fixed shape: a `**Suggested path.**` paragraph naming what to use in
@@ -52,7 +52,7 @@ whenever `docs/` or `mkdocs.yml` changed.
 ## MkDocs gotchas (these break the strict build)
 
 - `strict: true` in `mkdocs.yml`: any warning fails `mkdocs build --strict`.
-- Links that leave `docs/` (e.g. `../books/README.md`) are warnings. Mention sidecar files
+- Links that leave `docs/` (e.g. `../books/free/README.md`) are warnings. Mention sidecar files
   by path in prose instead of linking them.
 - Chapter titles containing `:` (Chapter 9, Chapter 23) must stay double-quoted in the
   `nav` of `mkdocs.yml`.

@@ -13,9 +13,9 @@ see Git conventions below).
   scope, resources, and URLs.
 - NOT a Python package: `[tool.uv] package = false`. `src/llm_for_dummies/` has only
   `__init__.py`, which exists solely to keep pyright/pyrefly green until chapter code lands.
-- `books/` holds downloaded reference PDFs (gitignored); `books/README.md` is the tracked
-  manifest of official sources/licenses. Only download from official sources — never the
-  z-library/archive mirrors.
+- `books/free/` holds downloaded reference PDFs (gitignored); `books/free/README.md` is the
+  tracked manifest of official sources/licenses. Only download from official sources —
+  never the z-library/archive mirrors.
 
 ## Commands
 
@@ -34,7 +34,7 @@ see Git conventions below).
 - `mkdocs` is pinned `>=1.6,<2` and `mkdocs-material>=9.7.5` on purpose: MkDocs 2.0 removes
   the plugin system and YAML config. Never bump the cap. Material prints a non-fatal
   "MkDocs 2.0" advisory on every build — ignore it.
-- Links that leave `docs/` (e.g. `../books/README.md`) fail the strict build. Reference
+- Links that leave `docs/` (e.g. `../books/free/README.md`) fail the strict build. Reference
   sidecar files by path in prose, not as markdown links.
 - YAML string gotcha: chapter titles containing `:` ("Chapter 9 - Deep Learning: Concepts
   and Practice", "Chapter 23 - Capstone: Train, Ship and Improve Your Own Model") must stay

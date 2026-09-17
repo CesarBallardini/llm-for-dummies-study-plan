@@ -14,5 +14,5 @@ site/
 .DS_Store
 .pre-commit.yaml
 
-# Large book PDFs — track books/README.md only
-books/*.pdf
+# Large book PDFs, track books/free/README.md only
+books/free/*.pdf
