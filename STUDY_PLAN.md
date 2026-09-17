@@ -10,6 +10,8 @@ This plan, and the book built from it, are released under the MIT License; the f
 
 The plan has six parts and 24 chapters. Every chapter has the same structure:
 
+There are two ways to use it. Straight through, in chapter order, which is what the plan is built for. Or from a goal: Appendix D sets out six learning paths, each naming a destination, the chapters that lead there in order, the prerequisites it assumes down to the section, and the milestone that proves the goal was reached.
+
 - **Goals**: the scope of the chapter and how the rest of the course uses it.
 - **Topics**: the syllabus, in study order.
 - **Resources**: a suggested path, followed by university courses, online courses (MOOCs), books, and lectures, papers, and articles. The recommended starting point in each group is marked "start here"; optional and advanced items are labeled as such.

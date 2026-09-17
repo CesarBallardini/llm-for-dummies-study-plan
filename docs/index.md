@@ -9,6 +9,19 @@ All required material is free or low-cost, and every resource is linked directly
 The university courses listed publish their lecture videos, slides, and
 assignments openly, even when enrollment for credit is restricted.
 
+!!! tip "Two ways in"
+
+    **Straight through**, in chapter order: the book is built for it, and each
+    chapter assumes the ones before it. Start at
+    [Chapter 1](chapter-01-college-algebra/index.md).
+
+    **From a goal**: the six [learning paths](learning-paths/index.md) each name a
+    destination — understand how LLMs work, pretrain one, improve an existing
+    model, serve and operate one, or build an application on open weights — and
+    give the chapters that lead there in order, the prerequisites they assume down
+    to the section, and the milestone that proves you arrived. Beginning from zero,
+    take [Path 0 — Foundations first](learning-paths/foundations-first.md).
+
 This book is released under the [MIT License](license.md). That license covers the
 book and the code written for its milestones, and nothing else: every course,
 textbook, paper, video, dataset, and model linked from the chapters keeps the terms
