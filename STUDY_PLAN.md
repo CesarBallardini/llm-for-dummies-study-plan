@@ -22,13 +22,15 @@ The estimated total is 24–36 months at 10 hours per week, or 12–18 months at
 
 ### Map of Goals to Chapters
 
+Each row is the core of a learning path; Appendix D expands them into ordered routes through the book, with prerequisites, the contribution of each chapter, and the milestone that proves the goal was reached.
+
 | Goal | Relevant chapters |
 | --- | --- |
 | Understand how LLMs work internally | 13, 14, 15, 16 |
 | Pretrain an open-source LLM | 14, 15, 16, 17 |
 | Improve an existing model (training and research) | 16, 17, 18, 19, 20, 24 |
 | Serve, deploy, and operate an LLM | 21, 22, 23 |
-| Build applications on top of open models | 21, 23, 24 |
+| Build applications on top of open models | 21, 22, 24 |
 
 ---
 
@@ -1140,3 +1142,87 @@ The books below are referenced in several chapters. Free titles are marked.
 2. Start Khan Academy College Algebra (Chapter 1): 30–45 minutes per day.
 3. Start CS50P (Chapter 6): 45–60 minutes per day.
 4. At the end of the week, re-read this plan and set a weekly time budget. A fixed weekly schedule is easier to sustain over a multi-year course than irregular long sessions.
+
+# Appendix D — Learning Paths
+
+The chapters are ordered as a single course, and reading them in order works. A learning path is the other way in: it starts from a goal and names the chapters that lead to it, in the order to take them. The core of each path below is a row of the Map of Goals to Chapters, with Path 0 added for readers starting from zero. Nothing in a path is new material, and a chapter absent from a path is absent from that route only, not optional in the course.
+
+The web edition renders one page per path, each with the sequence as a table and links to the chapters: https://katra.ballardini.com.ar/llm-for-dummies-study-plan/learning-paths/
+
+## Path 0 — Foundations First
+
+**Goal.** Read the rest of the book without stopping at the notation: differentiate a composed function and say what a gradient is; multiply matrices and read an eigendecomposition or an SVD as a statement about directions and scaling; write down a likelihood and take its logarithm; explain gradient descent and the role of the learning rate; write and debug NumPy and PyTorch code in a virtual environment under version control; and say how much VRAM a model of a given size needs in fp32, fp16, and bf16.
+
+**Prerequisites.** None beyond secondary-school algebra.
+
+**Sequence.** Chapters 1 through 7, in order. Chapter 1 supplies the exponentials, logarithms, trigonometry, and sigma notation every later formula is written in; Chapter 2 the derivatives and the multivariable chain rule that backpropagation applies to a computational graph; Chapter 3 the vectors, matrices, and factorizations that are the language of the field; Chapter 4 the distributions, likelihood, and information theory behind a model that is itself a distribution over the next token; Chapter 5 the optimizers and the finite-precision arithmetic that decide whether a run converges; Chapter 6 the Python, tooling, and version control every milestone is written with; Chapter 7 the GPU and the VRAM limits that cap what can be trained or served. Chapter 6 runs in parallel with Part I, starting in the first week, not after it.
+
+**Milestones.** Chapters 3, 4, 5, and 6: matrix multiplication written by hand and checked against NumPy; a maximum likelihood estimate derived and verified by simulation; a logistic regression fitted with a hand-derived gradient; a loop-free NumPy library in its own repository.
+
+**Time.** About 29–48 weeks at 10 hours per week with Chapter 6 in parallel, or 37–60 weeks strictly in sequence.
+
+## Path 1 — Understand How LLMs Work Internally
+
+**Goal.** Take any open model's card and architecture diagram and say what each part does and why: trace a prompt from characters through the tokenizer, the embedding table, the Transformer blocks, and the final softmax to a sampled token; explain what the KV cache holds and why it grows with context length; read a training run's hyperparameters; and use a scaling law to explain the token budget a released model was trained on.
+
+**Prerequisites.** Path 0, and then: the whole of Chapter 12, which is the architecture being built; from Chapter 10, computational graphs and reverse-mode automatic differentiation, the hand-written backward pass verified against PyTorch autograd, and vanishing and exploding gradients; from Chapter 9, `nn.Module`, `Dataset` and `DataLoader`, autograd, the training loop, softmax with cross-entropy, layer normalization, and residual connections; from Chapter 7, VRAM and bytes per parameter in fp32, fp16, and bf16, and the introduction to training memory; and from Chapter 4, entropy, cross-entropy, KL divergence, and perplexity. Chapter 11 is useful context but is not on the critical path, and the convolutional and vision material of Chapter 9 is not needed here.
+
+**Sequence.** Chapters 13, 14, 15, 16. Chapter 13 covers how text becomes numbers; Chapter 14 assembles Chapters 12 and 13 into a complete GPT-style model and trains it; Chapter 15 explains how a released model differs from it in data, size, and cost; Chapter 16 how a model too large for one GPU is trained on many.
+
+**Milestone.** The Chapter 14 milestone: load the released GPT-2 (124M) weights into the from-scratch implementation and verify that its logits match `GPT2LMHeadModel` on the same input.
+
+**Time.** 21–28 weeks at 10 hours per week after the prerequisites.
+
+## Path 2 — Pretrain an Open-Source LLM
+
+**Goal.** Plan and execute a pretraining run: choose a model size and token budget that fit a compute budget, assemble and filter a data mixture, train the tokenizer, run the training loop across several GPUs without wasting most of them, read the loss curve, and end with base weights and a fine-tuned checkpoint.
+
+**Prerequisites.** Path 0, and then: the whole of Chapter 12, including the changes in current open models (SwiGLU, grouped-query attention, and mixture-of-experts layers); from Chapter 13, byte pair encoding training, encoding, and decoding, vocabulary size, special tokens, and compression ratio, the dependence of a tokenizer on its training corpus, and tokenized datasets with sliding-window input-target pairs, because a pretraining run begins by training its own tokenizer; from Chapter 10, reverse-mode automatic differentiation, gradient checking with finite differences, and vanishing and exploding gradients with the scale of the initial weights, which is the level at which a diverging run is debugged; from Chapter 5, stochastic and mini-batch gradient descent, momentum and adaptive methods (Adam, AdamW), learning-rate schedules with warmup and decay, floating-point representation with overflow and underflow, and precision formats and mixed-precision training; and from Chapter 7, VRAM and memory bandwidth, FLOPs and FLOP/s, bytes per parameter, and the introduction to training memory.
+
+**Sequence.** Chapters 14, 15, 16, 17. Chapter 14 builds and trains the model; Chapter 15 supplies data mixtures, scaling laws, token budgets, and compute estimates from C ≈ 6ND; Chapter 16 the multi-GPU training and the throughput work; Chapter 17 the supervised fine-tuning that turns base weights into something that answers.
+
+**Milestones.** The Chapter 15 training plan for a 1B-parameter model, then the Chapter 16 throughput measurement, in that order: the plan states how much throughput the run needs. Chapter 23 turns the path into a released model under a fixed budget.
+
+**Time.** 22–30 weeks at 10 hours per week after the prerequisites, not counting the capstone.
+
+## Path 3 — Improve an Existing Model
+
+**Goal.** Take a released open model and make it measurably better: fine-tune it on your own data with LoRA on a single GPU, align it to preferences with DPO and know where RLHF differs, train it to reason with reinforcement learning against a verifiable reward, measure all of it with a harness rather than by reading samples, and read a new method's paper well enough to reproduce it.
+
+**Prerequisites.** Path 0, and then: from Chapter 4, expectation and variance, maximum likelihood estimation, entropy, cross-entropy, KL divergence, and perplexity, and confidence intervals and the bootstrap — DPO and PPO are written in exactly this vocabulary, a KL term against a reference policy being the heart of both, and Chapter 20 reports every score with a standard error; from Chapter 9, the training loop, optimizers, and learning-rate schedules, since every method on this path is that loop with a different loss; from Chapter 12, scaled dot-product attention, the Transformer block, the decoder-only design, and parameter counts, which is enough to know what a LoRA adapter attaches to; and from Chapter 13, special tokens and the token embedding table with weight tying, because a chat template applied inconsistently is the most common silent failure in fine-tuning. Chapter 14 is not required but makes debugging a fine-tuning run considerably faster.
+
+**Sequence.** Chapters 16, 17, 18, 19, 20, 24. Chapter 16 is taken in part — the memory of a training step, mixed precision, gradient accumulation and activation recomputation, `torch.compile`, and FlashAttention, which are what make a fine-tune fit on one GPU, while the parallelism half of the chapter (ZeRO, FSDP, tensor and pipeline parallelism) belongs to Path 2 and can wait; Chapter 17 supplies SFT, LoRA, and QLoRA; Chapter 18 preference tuning with reward models, RLHF, and DPO; Chapter 19 reinforcement learning against verifiable rewards and the reasoning recipe; Chapter 20 the evaluation without which none of the changes can be called improvements; Chapter 24 the reading routine that keeps the path usable afterwards. Chapter 20 can be read directly after Chapter 17, and fixing the evaluation before running the training is the most useful habit on this path.
+
+**Leans outside itself.** Two places, both light. The Chapter 16 milestone trains "nanoGPT or the Chapter 14 model" and frames throughput against the runs of Chapter 15: substitute the model being fine-tuned and read the numbers as a ceiling rather than a reproduction target. Chapter 24 has one topic of eleven — open-source releases: model cards, technical reports, and the release notes of training and inference libraries — that reads against Chapters 21 and 22; skip it, or pick it up on Path 4.
+
+**Milestone.** The Chapter 18 and Chapter 19 training runs, both of which fit a free Colab or Kaggle T4 GPU with LoRA, paired with the Chapter 20 harness comparison run before and after the fine-tune.
+
+**Time.** 23–32 weeks at 10 hours per week for Chapters 16 through 20, plus Chapter 24, which is ongoing.
+
+## Path 4 — Serve, Deploy, and Operate an LLM
+
+**Goal.** Put an open model in front of users and keep it there: quantize it and state the accuracy cost, choose a serving stack for a workload and defend the choice in terms of prefill, decode, batching, and the KV cache, size hardware for a target latency and cost per million tokens, and run the select-adapt-serve-evaluate-improve cycle.
+
+**Prerequisites.** From Chapter 7, compute-bound, memory-bound, and overhead-bound workloads, VRAM, memory bandwidth, bytes per parameter in fp32, fp16, bf16, and int8, and measuring GPU work — the largest single dependency of this path, because Chapter 21 defines prefill and decode in those workload classes and asks for decode speed to be predicted from memory bandwidth divided by model size; from Chapter 6, virtual environments, the command line, Git, and NumPy and PyTorch basics; from Chapter 13, vocabulary size and compression ratio, the dependence of a tokenizer on its corpus with the resulting cost differences between languages, and special tokens; from Chapter 20, perplexity and bits per byte, scoring methods, evaluation settings that change scores, and statistical uncertainty. Recommended, and in named sections rather than whole chapters: from Chapter 12, scaled dot-product attention, multi-head and grouped-query attention, and the quadratic cost of attention in the sequence length; from Chapter 16, mixed-precision formats, attention kernels that minimize memory traffic (FlashAttention), and tensor parallelism; from Chapter 17, the choice between fine-tuning, prompting, and retrieval, chat templates, and LoRA and QLoRA; and from Chapter 9, `nn.Module`, autograd, and the training loop. From Part I, two sections carry most of the weight: matrix multiplication and low-rank approximation (Chapter 3), and entropy, cross-entropy, and perplexity (Chapter 4). The calculus of Chapter 2 and the optimizer theory of Chapter 5 matter far more for training than for serving, and a reader whose goal is to operate models can take them later. That is an editorial judgement about this route, not a claim that the course order is optional.
+
+**Sequence.** Chapters 21, 22, 23. Chapter 21 covers prefill and decode, the KV cache, batching, speculative decoding, quantization, and the serving stacks; Chapter 22 the operating cycle, retrieval, cost control, and monitoring; Chapter 23 the capstone, which is this path rehearsed end to end on a model of your own.
+
+**What Chapter 23 assumes.** The capstone is the one step on this path that is not about serving: its milestone trains a tokenizer, pretrains a model, and fine-tunes it with SFT before anything is served or published, which brings Chapters 14 and 15 with it on top of the Chapters 13 and 17 already listed. Its DPO or RL stage (Chapters 18 and 19) is marked optional in the chapter itself and can be skipped outright here. Chapter 22 describes itself as combining the methods of Chapters 17 to 21, but only Chapter 17 is load-bearing there: alignment and reasoning appear as named adaptation options, not as material that must have been read. Take it as written to have trained the model you operate, treating the pretraining stages as a detour into Path 2; or take it in its adapt-an-existing-model form, substituting a released open base model for the tokenizer and pretraining stages and keeping the evaluate, serve, publish, and iterate half, which is the part this path is about. The plan, the budget, the cost record, and the one measured change survive the substitution.
+
+**Milestones.** The Chapter 21 comparison of a 7–8B model at three quantization levels, and the Chapter 22 question-answering system over at least 100 pages of documents.
+
+**Time.** 14–21 weeks at 10 hours per week after the prerequisites.
+
+## Path 5 — Build Applications on Open Models
+
+**Goal.** Ship something people use on top of an open model rather than a vendor API: run the model and know its cost per million tokens, choose a base model on size, licence, context length, and serving cost rather than on a leaderboard position, design around the context window and the tokenizer, add retrieval for facts the model was never trained on, put guardrails and monitoring around it, evaluate the application rather than the model, and keep the stack current as better open models are released.
+
+**Prerequisites.** From Chapter 7, compute-bound, memory-bound, and overhead-bound workloads, VRAM and memory bandwidth, bytes per parameter, and the section on CPU against GPU for running a model, which is what decides whether the application needs a GPU at all; from Chapter 6, virtual environments, the command line, Git, and NumPy and PyTorch basics; from Chapter 13, vocabulary size and compression ratio, the dependence of a tokenizer on its corpus with the cost differences between languages, the model failures caused by tokenization, and the token embedding table and context window; from Chapter 20, perplexity, scoring methods, evaluation settings that change scores, statistical uncertainty, and the use of an LLM as a judge with its failure modes. Recommended: from Chapter 16, mixed-precision formats, attention kernels that minimize memory traffic (FlashAttention), and tensor parallelism, all three of which Chapter 21 uses by name; from Chapter 12, scaled dot-product attention, multi-head and grouped-query attention, and the quadratic cost of attention in the sequence length, which is what the key-value cache of Chapter 21 is and why a long context costs what it does; from Chapter 17, the choice between fine-tuning, prompting, and retrieval, chat templates, and LoRA; and from Chapter 9, `nn.Module`, autograd, and the training loop.
+
+**Sequence.** Chapters 21, 22, 24. Chapter 21 is the engineering floor under any application: quantization, serving stacks, batching, latency, and cost per token. Chapter 22 is the application chapter itself: choosing a base model, prompt design, retrieval-augmented generation, agents, guardrails, versioning, monitoring, and the conversion of logged failures into evaluation cases and training data. Chapter 24 is what keeps the model choice and the serving stack from going stale, which on this path happens within months. Chapter 22 describes itself as combining the methods of Chapters 17 to 21; of those only Chapter 17 is load-bearing and it is listed among the prerequisites, while alignment (Chapter 18) and reasoning (Chapter 19) appear there as named adaptation options rather than as required reading.
+
+**Optional finisher.** Chapter 23 is a training project, not an application one: its milestone trains a tokenizer, pretrains a model, fine-tunes it with SFT, then evaluates, serves, and publishes it within a budget of $15 to $100, which brings Chapters 13 through 17 with it. Take it to own the weights you ship; to ship only the application, substitute the adaptation of an existing open model for the pretraining stages, which is the Chapter 22 cycle already in this path. Budget a further 4–8 weeks for the capstone as written.
+
+**Milestone.** The Chapter 22 milestone: a question-answering system over a document collection of at least 100 pages on an open instruction-tuned model of 1 to 3 billion parameters, paired with the Chapter 21 comparison of a 7 to 8 billion parameter model at three quantization levels, which is what tells you the application's running cost.
+
+**Time.** 10–13 weeks at 10 hours per week for Chapters 21 and 22, plus Chapter 24, which is ongoing, and 4–8 weeks more if the capstone is taken.

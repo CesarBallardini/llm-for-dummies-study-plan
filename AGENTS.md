@@ -11,6 +11,10 @@ see Git conventions below).
   `STUDY_PLAN.md` as a course: college algebra -> building/training/operating open LLMs.
   The markdown is the product; `STUDY_PLAN.md` is the single source of truth for chapter
   scope, resources, and URLs.
+- `docs/learning-paths/` = 6 goal-first routes over the same chapters (index + Path 0-5),
+  mirroring Appendix D of `STUDY_PLAN.md`; edit both. Core chapters per path come from the
+  Map of Goals to Chapters; prerequisites are editorial; time totals are summed from the
+  chapters' `**Time.**` lines.
 - NOT a Python package: `[tool.uv] package = false`. `src/llm_for_dummies/` has only
   `__init__.py`, which exists solely to keep pyright/pyrefly green until chapter code lands.
 - Published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/> by

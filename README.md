@@ -71,6 +71,7 @@ deliberately deferred until real code lands.
 | `docs/` | Book content, one folder per chapter |
 | `docs/index.md` | Home page and how-to-use guide |
 | `docs/chapter-NN-*/index.md` | The 24 chapters |
+| `docs/learning-paths/` | Goal-first routes through the chapters (Appendix D of the plan) |
 | `src/llm_for_dummies/` | Runnable Python code that accompanies the chapters |
 | `mkdocs.yml` | Book navigation and theme |
 | `pyproject.toml` | uv-managed Python 3.14 project |

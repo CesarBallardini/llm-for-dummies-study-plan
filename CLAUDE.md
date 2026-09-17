@@ -12,6 +12,15 @@ pages render it as a navigable course. Every chapter page follows the same skele
 matching `## Chapter NN` section of `STUDY_PLAN.md` — when you edit one, keep the other
 in sync.
 
+`docs/learning-paths/` holds six goal-first routes through those chapters (Path 0
+foundations, then the five rows of the plan's Map of Goals to Chapters). Each page is
+Goal / Prerequisites / The sequence (a table of chapter, why, time) / milestone /
+Estimated time, and mirrors one `## Path N` section of Appendix D in `STUDY_PLAN.md` —
+same two-file sync rule as the chapters. A path's **core** chapters are fixed by the goal
+map; the prerequisite lists are editorial and say so on the page. The week totals on each
+page are summed from the chapters' `**Time.**` lines, so re-sum them if a chapter estimate
+changes.
+
 The book is published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/>.
 `.github/workflows/deploy-book.yml` builds it with `mkdocs build --strict` and deploys to
 GitHub Pages on every push to `main`. That domain is the custom domain of the user site

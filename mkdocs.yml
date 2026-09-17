@@ -77,6 +77,14 @@ copyright: >-
 
 nav:
   - Home: index.md
+  - Learning paths:
+      - learning-paths/index.md
+      - Path 0 - Foundations first: learning-paths/foundations-first.md
+      - Path 1 - Understand how LLMs work internally: learning-paths/understand-llms-internally.md
+      - Path 2 - Pretrain an open-source LLM: learning-paths/pretrain-an-llm.md
+      - Path 3 - Improve an existing model: learning-paths/improve-an-existing-model.md
+      - Path 4 - Serve, deploy and operate an LLM: learning-paths/serve-and-operate.md
+      - Path 5 - Build applications on open models: learning-paths/build-applications.md
   - Part I - Mathematical Foundations:
       - Chapter 1 - College Algebra and Pre-calculus: chapter-01-college-algebra/index.md
       - Chapter 2 - Calculus I and II: chapter-02-calculus/index.md
