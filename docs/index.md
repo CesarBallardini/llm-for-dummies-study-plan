@@ -9,6 +9,19 @@ All required material is free or low-cost, and every resource is linked directly
 The university courses listed publish their lecture videos, slides, and
 assignments openly, even when enrollment for credit is restricted.
 
+!!! tip "Two ways in"
+
+    **Straight through**, in chapter order: the book is built for it, and each
+    chapter assumes the ones before it. Start at
+    [Chapter 1](chapter-01-college-algebra/index.md).
+
+    **From a goal**: the six [learning paths](learning-paths/index.md) each name a
+    destination — understand how LLMs work, pretrain one, improve an existing
+    model, serve and operate one, or build an application on open weights — and
+    give the chapters that lead there in order, the prerequisites they assume down
+    to the section, and the milestone that proves you arrived. Beginning from zero,
+    take [Path 0 — Foundations first](learning-paths/foundations-first.md).
+
 This book is released under the [MIT License](license.md). That license covers the
 book and the code written for its milestones, and nothing else: every course,
 textbook, paper, video, dataset, and model linked from the chapters keeps the terms
@@ -56,13 +69,19 @@ part depends on its mathematics.
 
 ## Map of goals to chapters
 
+Each row below is the core of a [learning path](learning-paths/index.md): a page
+that states the goal, the chapters that lead to it in order, what each one
+contributes, and the milestone that proves you got there. Start with
+[Path 0 - Foundations first](learning-paths/foundations-first.md) if you are
+beginning from zero.
+
 | Goal | Relevant chapters |
 | --- | --- |
 | Understand how LLMs work internally | [13](chapter-13-tokenization-embeddings/index.md), [14](chapter-14-llm-from-scratch/index.md), [15](chapter-15-pretraining-at-scale/index.md), [16](chapter-16-distributed-training-systems/index.md) |
 | Pretrain an open-source LLM | [14](chapter-14-llm-from-scratch/index.md), [15](chapter-15-pretraining-at-scale/index.md), [16](chapter-16-distributed-training-systems/index.md), [17](chapter-17-finetuning/index.md) |
 | Improve an existing model (training and research) | [16](chapter-16-distributed-training-systems/index.md), [17](chapter-17-finetuning/index.md), [18](chapter-18-alignment-rlhf/index.md), [19](chapter-19-reasoning-rl/index.md), [20](chapter-20-evaluation-benchmarks/index.md), [24](chapter-24-research-reading-loop/index.md) |
 | Serve, deploy, and operate an LLM | [21](chapter-21-inference-serving/index.md), [22](chapter-22-operate-improve-open-llm/index.md), [23](chapter-23-capstone/index.md) |
-| Build applications on top of open models | [21](chapter-21-inference-serving/index.md), [23](chapter-23-capstone/index.md), [24](chapter-24-research-reading-loop/index.md) |
+| Build applications on top of open models | [21](chapter-21-inference-serving/index.md), [22](chapter-22-operate-improve-open-llm/index.md), [24](chapter-24-research-reading-loop/index.md) |
 
 ## The core bookshelf
 
