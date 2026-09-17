@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.pyrefly_cache/
+htmlcov/
+.coverage
+coverage.xml
+dist/
+build/
+*.egg-info/
+site/
+.DS_Store
+.pre-commit.yaml
+
+# Large book PDFs — track books/README.md only
+books/*.pdf

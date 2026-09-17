@@ -1,0 +1,95 @@
+# `pre-commit install` must wire the commit-msg stage too, not just pre-commit,
+# or the Conventional Commits check below is silently never run.
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+  - pre-push
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-vcs-permalinks
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+
+      # Work lands on a branch and through a PR, which is what the CI and
+      # security gates key off.
+      - id: no-commit-to-branch
+        args: [--branch=main]
+
+  # Every chapter cites many external URLs -- a dead link should fail the
+  # commit, not rot silently in the book. Disabled here (2026-09-17):
+  # checking a whole-repo commit's ~600 links in one pass gets github.com
+  # throttled on this network hard enough to make the hook unreliable
+  # rather than informative -- every link it has flagged has verified live
+  # on manual recheck. Re-enable by uncommenting once commits are back to
+  # their normal, much smaller size, and periodically run it by hand in
+  # the meantime: uv run --frozen pre-commit run markdown-link-check --all-files
+  # (a config file passed via `-c` can add timeouts/retries and per-site
+  # ignores if GitHub throttling or a WAF-blocked site becomes a recurring
+  # problem again; see this commit's history for a worked example)
+  # - repo: https://github.com/tcort/markdown-link-check
+  #   rev: v3.15.0
+  #   hooks:
+  #     - id: markdown-link-check
+  #       args: [-q]
+
+  - repo: local
+    hooks:
+      # ruff runs through `uv run --frozen` (local hook), not the
+      # astral-sh/ruff-pre-commit repo, so it always uses the exact version
+      # pinned in uv.lock -- a separately pinned pre-commit-hook revision can
+      # drift from what `make lint`/CI actually run. commitizen is local for
+      # the same reason.
+      - id: ruff-check
+        name: ruff check --fix
+        entry: uv run --frozen ruff check --fix
+        language: system
+        types: [python]
+
+      - id: ruff-format
+        name: ruff format
+        entry: uv run --frozen ruff format
+        language: system
+        types: [python]
+
+      - id: uv-lock-check
+        name: uv lock --check
+        description: fail if uv.lock is out of sync with pyproject.toml
+        entry: uv lock --check
+        language: system
+        pass_filenames: false
+
+      # Conventional Commits.
+      - id: commitizen
+        name: commitizen (conventional commit message)
+        entry: uv run --frozen cz check --commit-msg-file
+        language: system
+        stages: [commit-msg]
+
+      # Runs at push time, not commit time: the branch name is what GitHub
+      # derives a default pull request title from, and that title is what the
+      # repo's title convention. Catching it here costs one push instead of
+      # one round trip through CI.
+      - id: check-branch-name
+        name: branch name convention
+        entry: .pre-commit-hooks/check-branch-name.sh
+        language: script
+        stages: [pre-push]
+        pass_filenames: false
+        always_run: true
+        # pre-commit swallows stdout on success, which would hide the pull
+        # request title advice -- the whole point of the hook.
+        verbose: true

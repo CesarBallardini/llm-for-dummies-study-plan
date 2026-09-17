@@ -1,0 +1,7 @@
+{
+  "exclude": ["**/__pycache__", ".venv", "site", "docs"],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.14",
+  "typeCheckingMode": "standard"
+}
