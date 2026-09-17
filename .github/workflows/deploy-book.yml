@@ -1,0 +1,65 @@
+# Builds the MkDocs book and publishes it to GitHub Pages. Because the user site
+# CesarBallardini.github.io carries the custom domain katra.ballardini.com.ar,
+# this project site is served at
+# https://katra.ballardini.com.ar/llm-for-dummies-study-plan/ -- the same way
+# ley5110 and programacion-drracket already are. No DNS record and no CNAME file
+# are involved; the domain comes from the user site.
+#
+# Requires Settings > Pages > Source = "GitHub Actions" (build_type: workflow).
+name: Deploy book to Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets a deploy be re-run from the Actions tab without an empty commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, and never cancel one that is already publishing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10
+        with:
+          enable-cache: true
+
+      # --frozen everywhere: the build uses exactly uv.lock, and a lockfile out
+      # of sync with pyproject.toml fails here instead of resolving silently.
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      # --strict, same as `make docs`: a dangling link or a page missing from the
+      # nav fails the deploy instead of rotting in the published book.
+      - name: Build book
+        run: uv run --frozen mkdocs build --strict
+
+      # configure-pages is deliberately absent: it exists to hand a generator the
+      # base path at build time, and mkdocs.yml already states site_url outright.
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

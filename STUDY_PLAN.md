@@ -4,6 +4,8 @@ This plan is a curriculum that starts at college algebra and calculus, builds th
 
 All required material is free or low-cost, and every resource is linked directly. The university courses listed publish their lecture videos, slides, and assignments openly, even when enrollment for credit is restricted.
 
+This plan, and the book built from it, are released under the MIT License; the full text is in the `LICENSE` file at the root of the repository. That license covers this document and the code written for its milestones, and nothing else: every course, textbook, paper, video, dataset, and model linked below keeps the terms of its own author or publisher, which is why each one is cited through its official page.
+
 ## How to Use This Plan
 
 The plan has six parts and 24 chapters. Every chapter has the same structure:

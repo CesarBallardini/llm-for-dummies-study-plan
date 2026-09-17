@@ -12,10 +12,24 @@ pages render it as a navigable course. Every chapter page follows the same skele
 matching `## Chapter NN` section of `STUDY_PLAN.md` — when you edit one, keep the other
 in sync.
 
+The book is published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/>.
+`.github/workflows/deploy-book.yml` builds it with `mkdocs build --strict` and deploys to
+GitHub Pages on every push to `main`. That domain is the custom domain of the user site
+CesarBallardini.github.io and is inherited by every project site on the account, so this
+repo holds no CNAME file; `site_url` in `mkdocs.yml` must stay equal to that URL, trailing
+slash included, because canonical links, the sitemap and `404.html` are generated from it.
+
 `src/llm_for_dummies/` contains only `__init__.py`; it exists so the type-check gates
 have something to run against until chapter code lands. `books/free/*.pdf` is gitignored;
 `books/free/README.md` is the tracked manifest of official sources and licenses (download
 only from those official URLs, never from mirror sites).
+
+The repo is MIT-licensed (`LICENSE`). The notice lives in `docs/license.md`, in the
+`copyright` footer of `mkdocs.yml` — which renders on every page, which is why no chapter
+file carries its own notice — in `README.md`, and in a paragraph near the top of both
+`STUDY_PLAN.md` and `docs/index.md` (keep those two in sync like the chapters). The MIT
+terms cover this book only; every linked course, book, paper and model keeps its own
+license, which is why each resource is cited through its official page.
 
 Each chapter's `## Resources` (docs page) / `**Resources.**` (matching `STUDY_PLAN.md`
 section) follows a fixed shape: a `**Suggested path.**` paragraph naming what to use in
