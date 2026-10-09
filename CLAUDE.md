@@ -12,13 +12,36 @@ pages render it as a navigable course. Every chapter page follows the same skele
 matching `## Chapter NN` section of `STUDY_PLAN.md` — when you edit one, keep the other
 in sync.
 
-`docs/learning-paths/` holds six goal-first routes through those chapters (Path 0
-foundations, then the five rows of the plan's Map of Goals to Chapters). Each page is
-Goal / Prerequisites / The sequence (a table of chapter, why, time) / milestone /
-Estimated time, and mirrors one `## Path N` section of Appendix D in `STUDY_PLAN.md` —
-same two-file sync rule as the chapters. A path's **core** chapters are fixed by the goal
-map; the prerequisite lists are editorial and say so on the page. The week totals on each
-page are summed from the chapters' `**Time.**` lines, so re-sum them if a chapter estimate
+`docs/learning-paths/` holds six goal-first routes through those chapters: Path 0
+(foundations, Chapters 1–7) plus one per row of the plan's Map of Goals to Chapters. Each
+page is Goal / Prerequisites / The sequence (a table of chapter, why it is in the path,
+time) / the milestone that proves it / Estimated time, and mirrors one `## Path N` section
+of Appendix D in `STUDY_PLAN.md` — same two-file sync rule as the chapters. The "Two ways
+in" admonition near the top of `docs/index.md` and the matching paragraph in `## How to Use
+This Plan` are the entry points into the section; keep those two in sync as well.
+
+Three rules keep the paths honest. Each has already caught a real error here:
+
+- **A path's core chapters come from the goal map — and the goal map is checked against the
+  chapter text, not trusted.** Path 5 first read 21, 23, 24, but Chapter 23's own `**Topics.**`
+  are a from-scratch training capstone that pulls in Chapters 13–17, so the row became
+  21, 22, 24 (Chapter 22 is the application chapter) and Chapter 23 was demoted to an
+  optional finisher. Re-coring a path means editing the row in `STUDY_PLAN.md`, the mirror
+  table in `docs/index.md`, Appendix D and the page.
+- **Prerequisites name sections, not whole chapters**, wording them from the prerequisite
+  chapter's `**Topics.**` line, and say "the whole chapter" when that is the truth. They are
+  editorial, and each page says so rather than implying the plan mandates them.
+- **Audit backward references before publishing a change.** For each core chapter, collect
+  the chapter numbers cited in its Goals, Topics and Milestone; a citation to an *earlier*
+  chapter that is in neither the core nor the prerequisites is a gap the page must name,
+  while a citation to a later chapter is only a forward pointer. Watch for ranges: Chapter 22
+  saying it "combines the methods of Chapters 17–21" is not a dependency on 18 and 19. The
+  extra sections on three pages exist for exactly these cases — "What Chapter 23 assumes"
+  (Path 4), "Two places this path leans outside itself" (Path 3), "The optional finisher"
+  (Path 5).
+
+Week totals on each page are summed from the chapters' `**Time.**` lines and must equal the
+`**Time.**` line of the matching Appendix D section; re-sum both when a chapter estimate
 changes.
 
 The book is published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/>.
@@ -106,11 +129,17 @@ and `tests`; `pyrightconfig.json` excludes `docs` and `site`.
 
 - The user runs every git command themselves. Make the edits, then hand over the exact
   commands, a `<type>/<slug>` branch name, and an explicit PR title.
-- The local default branch is currently `master`; the `no-commit-to-branch` hook blocks
-  `main`, and work is expected on a branch named `<type>/<slug>` with type in
+- The default branch is `main`, locally and on GitHub; there is no `master` in this repo.
+  The `no-commit-to-branch` hook blocks committing to `main`, so work goes on a branch named
+  `<type>/<slug>` with type in
   `build|bump|chore|ci|docs|feat|fix|perf|refactor|revert|style|test`
-  (`.pre-commit-hooks/check-branch-name.sh`, enforced at pre-push; `main|master|HEAD`
-  exempt).
+  (`.pre-commit-hooks/check-branch-name.sh`, enforced at pre-push; `main|master|HEAD` are
+  exempt from the *name* check, which is why pushing `main` itself still works).
+- The pre-commit hooks are generated with the venv's absolute path baked in, so moving or
+  renaming the working copy breaks them with ``` `pre-commit` not found ``` on push. Recreate
+  the environment and reinstall: `rm -rf .venv && uv sync --frozen && uv run --frozen
+  pre-commit install`. uv's `.exe` shims in `.venv/Scripts` carry the same stale path and
+  fail with `uv trampoline failed to canonicalize script path`.
 - Commit messages are Conventional Commits, enforced at commit-msg by commitizen. A branch
   with more than one commit gets a GitHub-derived PR title that fails the convention, so
   always propose the PR title explicitly.

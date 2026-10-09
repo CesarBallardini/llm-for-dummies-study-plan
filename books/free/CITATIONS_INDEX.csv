@@ -1,0 +1,409 @@
+type,title,authors,year,publisher,access,url,link_text,source_file
+Book,Precalculus,,2021, OpenStax,free,https://openstax.org/details/books/precalculus-2e,official page,STUDY_PLAN.md
+Book,College Algebra,,2021, OpenStax,free,https://openstax.org/details/books/college-algebra-2e,official page,STUDY_PLAN.md
+Book,Precalculus,,,,free,https://www.stitz-zeager.com/,official page,STUDY_PLAN.md
+Book,Precalculus: Mathematics for Calculus,,2024, Cengage,paid,https://www.stewartmath.com/,author page,STUDY_PLAN.md
+Book,Calculus,,2017,Cambridge Press,free,https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/,MIT OpenCourseWare page,STUDY_PLAN.md
+Book,Calculus,,2016,OpenStax,free,https://openstax.org/details/books/calculus-volume-1,Volume 1,STUDY_PLAN.md
+Book,Calculus: Early Transcendentals,,2020, Cengage,paid,https://www.stewartcalculus.com/,author page,STUDY_PLAN.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,STUDY_PLAN.md
+Book,Introduction to Linear Algebra,,2023,Cambridge Press,free,https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html,official page,STUDY_PLAN.md
+Book,"Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares",,2018,Cambridge University Press,free,https://web.stanford.edu/~boyd/vmls/,official page,STUDY_PLAN.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,STUDY_PLAN.md
+Book,Linear Algebra and Its Applications,,2020, Pearson,paid,https://www.pearson.com/en-us/subject-catalog/p/linear-algebra-and-its-applications/P200000006235/9780136880929,publisher page,STUDY_PLAN.md
+Book,Linear Algebra,,,,free,https://hefferon.net/linearalgebra/,official page,STUDY_PLAN.md
+Book,Linear Algebra Done Right,,2024, Springer,free,https://linear.axler.net,official page,STUDY_PLAN.md
+Book,Linear Algebra and Learning from Data,,2019,Cambridge Press,paid,https://math.mit.edu/~gs/learningfromdata/,official page,STUDY_PLAN.md
+Book,Introduction to Probability,,2019,CRC,free,https://probabilitybook.net/,official free PDF,STUDY_PLAN.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,STUDY_PLAN.md
+Book,Introduction to Probability,,2008, Athena Scientific,paid,http://www.athenasc.com/probbook.html,official page,STUDY_PLAN.md
+Book,All of Statistics: A Concise Course in Statistical Inference,,2004,Springer,paid,https://link.springer.com/book/10.1007/978-0-387-21736-9,official page,STUDY_PLAN.md
+Book,Probabilistic Machine Learning: An Introduction,,2022,MIT Press,free,https://probml.github.io/pml-book/book1.html,official page,STUDY_PLAN.md
+Book,"Information Theory, Inference, and Learning Algorithms",,2003,Cambridge University Press,free,https://www.inference.org.uk/itila/book.html,official page,STUDY_PLAN.md
+Book,Pattern Recognition and Machine Learning,,2006,Springer,free,https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/,official page,STUDY_PLAN.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-09-Visual-Information/,Visual Information Theory,STUDY_PLAN.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,STUDY_PLAN.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,STUDY_PLAN.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/chapter_optimization/index.html,"chapter 12, ""Optimization Algorithms""",STUDY_PLAN.md
+Book,Convex Optimization,,2004,Cambridge University Press,free,https://web.stanford.edu/~boyd/cvxbook/,official page,STUDY_PLAN.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1609.04747,An overview of gradient descent optimization algorithms,STUDY_PLAN.md
+Article,,,2017,Distill,unknown,https://distill.pub/2017/momentum/,Why Momentum Really Works,STUDY_PLAN.md
+Paper,,,1991,ACM Computing Surveys,unknown,https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html,What Every Computer Scientist Should Know About Floating-Point Arithmetic,STUDY_PLAN.md
+Paper,,,2018,ICLR,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,STUDY_PLAN.md
+Article,,,2020,,unknown,https://nhigham.com/2020/06/02/what-is-bfloat16-arithmetic/,What Is Bfloat16 Arithmetic?,STUDY_PLAN.md
+Article,,,2019,,unknown,http://www.incompleteideas.net/IncIdeas/BitterLesson.html,The Bitter Lesson,STUDY_PLAN.md
+Book,Think Python,,,,free,https://allendowney.github.io/ThinkPython/,official page,STUDY_PLAN.md
+Book,Automate the Boring Stuff with Python,,,,free,https://automatetheboringstuff.com,official page,STUDY_PLAN.md
+Book,Python Data Science Handbook,,,,free,https://jakevdp.github.io/PythonDataScienceHandbook/,official page,STUDY_PLAN.md
+Book,Pro Git,,,,free,https://git-scm.com/book/en/v2,official page,STUDY_PLAN.md
+Book,Fluent Python,,,,paid,https://www.fluentpython.com/,official page,STUDY_PLAN.md
+Article,Build a Large Language Model (From Scratch),,2025,,unknown,https://sebastianraschka.com/teaching/pytorch-1h/,PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs,STUDY_PLAN.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,STUDY_PLAN.md
+Book,Machine Learning Engineering Open Book,,,,free,https://github.com/stas00/ml-engineering,official page,STUDY_PLAN.md
+Book,The Ultra-Scale Playbook: Training LLMs on GPU Clusters,,2025,,free,https://huggingface.co/spaces/nanotron/ultrascale-playbook,free online edition,STUDY_PLAN.md
+Book,Programming Massively Parallel Processors,,,,paid,https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0,official page,STUDY_PLAN.md
+Article,,,2022,,unknown,https://horace.io/brrr_intro.html,Making Deep Learning Go Brrrr From First Principles,STUDY_PLAN.md
+Article,,,2023,,unknown,https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/,Which GPU(s) to Get for Deep Learning,STUDY_PLAN.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,STUDY_PLAN.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,STUDY_PLAN.md
+Article,,,,,unknown,https://developer.nvidia.com/blog/even-easier-introduction-cuda/,An Even Easier Introduction to CUDA,STUDY_PLAN.md
+Book,An Introduction to Statistical Learning with Applications in Python,,2023,Springer,free,https://www.statlearning.com,official page,STUDY_PLAN.md
+Book,Hands-On Machine Learning with Scikit-Learn and PyTorch,,,,free,https://github.com/ageron/handson-mlp,official notebooks,STUDY_PLAN.md
+Book,The Hundred-Page Machine Learning Book,,2019,,free,https://themlbook.com/,official page,STUDY_PLAN.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,STUDY_PLAN.md
+Book,The Elements of Statistical Learning,,,,free,https://hastie.su.domains/ElemStatLearn/,official page,STUDY_PLAN.md
+Article,,,2012,Communications of the ACM,unknown,https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf,A Few Useful Things to Know About Machine Learning,STUDY_PLAN.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,STUDY_PLAN.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/,official page,STUDY_PLAN.md
+Book,Hands-On Machine Learning with Scikit-Learn and PyTorch,,,,free,https://github.com/ageron/handson-mlp,official notebooks,STUDY_PLAN.md
+Book,Deep Learning: Foundations and Concepts,,2024,Springer,free,https://www.bishopbook.com/,official page,STUDY_PLAN.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,STUDY_PLAN.md
+Article,,,2019,,unknown,https://karpathy.github.io/2019/04/25/recipe/,A Recipe for Training Neural Networks,STUDY_PLAN.md
+Article,,,2023,Google Research,free,https://github.com/google-research/tuning_playbook,Deep Learning Tuning Playbook,STUDY_PLAN.md
+Paper,,,2014,Journal of Machine Learning Research,unknown,https://jmlr.org/papers/v15/srivastava14a.html,Dropout: A Simple Way to Prevent Neural Networks from Overfitting,STUDY_PLAN.md
+Book,Neural Networks and Deep Learning,,2015,Determination Press,free,http://neuralnetworksanddeeplearning.com/,official page,STUDY_PLAN.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,STUDY_PLAN.md
+Book,Deep Learning: Foundations and Concepts,,2024,Springer,free,https://www.bishopbook.com/,official page,STUDY_PLAN.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,STUDY_PLAN.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-08-Backprop/,Calculus on Computational Graphs: Backpropagation,STUDY_PLAN.md
+Article,,,2017,n handout,unknown,https://cs231n.stanford.edu/handouts/derivatives.pdf,"Derivatives, Backpropagation, and Vectorization",STUDY_PLAN.md
+Paper,,,1986,Nature,paid,https://www.nature.com/articles/323533a0,Learning representations by back-propagating errors,STUDY_PLAN.md
+Paper,,,2018,Journal of Machine Learning Research,unknown,https://arxiv.org/abs/1502.05767,Automatic differentiation in machine learning: a survey,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/,official page,STUDY_PLAN.md
+Book,Introduction to Natural Language Processing,,2019,MIT Press,free,https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf,free draft PDF,STUDY_PLAN.md
+Article,,,2019,,unknown,https://jalammar.github.io/illustrated-word2vec/,The Illustrated Word2vec,STUDY_PLAN.md
+Paper,,,2003,,unknown,https://www.jmlr.org/papers/v3/bengio03a.html,A Neural Probabilistic Language Model,STUDY_PLAN.md
+Paper,,,2013,,unknown,https://arxiv.org/abs/1301.3781,Efficient Estimation of Word Representations in Vector Space,STUDY_PLAN.md
+Paper,,,2014,,unknown,https://nlp.stanford.edu/projects/glove/,GloVe: Global Vectors for Word Representation,STUDY_PLAN.md
+Article,,,2015,,unknown,https://karpathy.github.io/2015/05/21/rnn-effectiveness/,The Unreasonable Effectiveness of Recurrent Neural Networks,STUDY_PLAN.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-08-Understanding-LSTMs/,Understanding LSTM Networks,STUDY_PLAN.md
+Paper,,,2014,,unknown,https://arxiv.org/abs/1409.3215,Sequence to Sequence Learning with Neural Networks,STUDY_PLAN.md
+Article,,,2018,,unknown,https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/,Visualizing A Neural Machine Translation Model,STUDY_PLAN.md
+Paper,,,2018,ELMo,unknown,https://arxiv.org/abs/1802.05365,Deep contextualized word representations,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Article,,,2018,,unknown,https://jalammar.github.io/illustrated-transformer/,The Illustrated Transformer,STUDY_PLAN.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1706.03762,Attention Is All You Need,STUDY_PLAN.md
+Article,,,2018,,unknown,https://nlp.seas.harvard.edu/annotated-transformer/,The Annotated Transformer,STUDY_PLAN.md
+Paper,,,2022,,free,https://arxiv.org/abs/2207.09238,Formal Algorithms for Transformers,STUDY_PLAN.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1810.04805,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,STUDY_PLAN.md
+Paper,,,2021,,free,https://arxiv.org/abs/2104.09864,RoFormer: Enhanced Transformer with Rotary Position Embedding,STUDY_PLAN.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2002.04745,On Layer Normalization in the Transformer Architecture,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.04434,"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",STUDY_PLAN.md
+Article,,,2025,,free,https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison,The Big LLM Architecture Comparison,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,STUDY_PLAN.md
+Paper,,,2015,,unknown,https://arxiv.org/abs/1508.07909,Neural Machine Translation of Rare Words with Subword Units,STUDY_PLAN.md
+Paper,,,,,free,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,Language Models are Unsupervised Multitask Learners,STUDY_PLAN.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1804.10959,Subword Regularization,STUDY_PLAN.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1609.08144,Google's Neural Machine Translation System,STUDY_PLAN.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1608.05859,Using the Output Embedding to Improve Language Models,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.15425,Language Model Tokenizers Introduce Unfairness Between Languages,STUDY_PLAN.md
+Paper,,,2021,,free,https://arxiv.org/abs/2105.13626,ByT5: Towards a token-free future with pre-trained byte-to-byte models,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Paper,,,,,free,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,Language Models are Unsupervised Multitask Learners,STUDY_PLAN.md
+Paper,,,,,unknown,https://arxiv.org/abs/2005.14165,Language Models are Few-Shot Learners,STUDY_PLAN.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1904.09751,The Curious Case of Neural Text Degeneration,STUDY_PLAN.md
+Article,,,2020,Hugging Face blog,unknown,https://huggingface.co/blog/how-to-generate,How to generate text: using different decoding methods for language generation with Transformers,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,STUDY_PLAN.md
+Article,,,2021,,free,https://transformer-circuits.pub/2021/framework/index.html,A Mathematical Framework for Transformer Circuits,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Article,,,2025,,unknown,https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook,The Smol Training Playbook: The Secrets to Building World-Class LLMs,STUDY_PLAN.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,STUDY_PLAN.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2001.08361,Scaling Laws for Neural Language Models,STUDY_PLAN.md
+Paper,,,2022,Chinchilla,unknown,https://arxiv.org/abs/2203.15556,Training Compute-Optimal Large Language Models,STUDY_PLAN.md
+Paper,,,2020,,free,https://arxiv.org/abs/2101.00027,The Pile: An 800GB Dataset of Diverse Text for Language Modeling,STUDY_PLAN.md
+Paper,,,2021,,unknown,https://arxiv.org/abs/2107.06499,Deduplicating Training Data Makes Language Models Better,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2306.01116,The RefinedWeb Dataset for Falcon LLM,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2406.17557,The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale,STUDY_PLAN.md
+Paper,,,2025,,free,https://arxiv.org/abs/2506.20920,FineWeb2: One Pipeline to Scale Them All,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.00159,Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.00838,OLMo: Accelerating the Science of Language Models,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2407.21783,The Llama 3 Herd of Models,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2412.19437,DeepSeek-V3 Technical Report,STUDY_PLAN.md
+Book,The Ultra-Scale Playbook: Training LLMs on GPU Clusters,,2025,,free,https://huggingface.co/spaces/nanotron/ultrascale-playbook,free online edition,STUDY_PLAN.md
+Book,Machine Learning Engineering Open Book,,,,free,https://github.com/stas00/ml-engineering,official page,STUDY_PLAN.md
+Book,How to Scale Your Model: A Systems View of LLMs on TPUs,,2025,,free,https://jax-ml.github.io/scaling-book/,free online edition,STUDY_PLAN.md
+Article,,,2021,,unknown,https://lilianweng.github.io/posts/2021-09-25-train-large/,How to Train Really Large Models on Many GPUs?,STUDY_PLAN.md
+Article,,,2022,,unknown,https://horace.io/brrr_intro.html,Making Deep Learning Go Brrrr From First Principles,STUDY_PLAN.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,STUDY_PLAN.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,STUDY_PLAN.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1910.02054,ZeRO: Memory Optimizations Toward Training Trillion Parameter Models,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2304.11277,PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel,STUDY_PLAN.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1909.08053,Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2205.14135,FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,STUDY_PLAN.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,STUDY_PLAN.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Paper,,,2021,,free,https://arxiv.org/abs/2106.09685,LoRA: Low-Rank Adaptation of Large Language Models,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,STUDY_PLAN.md
+Article,,,2025,,unknown,https://thinkingmachines.ai/blog/lora/,LoRA Without Regret,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.09673,LoRA Learns Less and Forgets Less,STUDY_PLAN.md
+Paper,,,2021,,unknown,https://arxiv.org/abs/2109.01652,Finetuned Language Models Are Zero-Shot Learners,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.11206,LIMA: Less Is More for Alignment,STUDY_PLAN.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Article,,,2022,,unknown,https://huggingface.co/blog/rlhf,Illustrating Reinforcement Learning from Human Feedback (RLHF),STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2203.02155,Training language models to follow instructions with human feedback,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.18290,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2204.05862,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2212.08073,Constitutional AI: Harmlessness from AI Feedback,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2411.15124,Tülu 3: Pushing Frontiers in Open Language Model Post-Training,STUDY_PLAN.md
+Article,,,2024,,unknown,https://lilianweng.github.io/posts/2024-11-28-reward-hacking/,Reward Hacking in Reinforcement Learning,STUDY_PLAN.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1707.06347,Proximal Policy Optimization Algorithms,STUDY_PLAN.md
+Book,Build a Reasoning Model (From Scratch),,2026,Manning,free,https://sebastianraschka.com/reasoning-from-scratch/,official hub,STUDY_PLAN.md
+Book,Reinforcement Learning: An Introduction,,2018, MIT Press,free,http://incompleteideas.net/book/the-book-2nd.html,official page,STUDY_PLAN.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,STUDY_PLAN.md
+Article,,,2025,,unknown,https://magazine.sebastianraschka.com/p/understanding-reasoning-llms,Understanding Reasoning LLMs,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2201.11903,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2203.11171,Self-Consistency Improves Chain of Thought Reasoning in Language Models,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.03300,DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models,STUDY_PLAN.md
+Paper,,,2025,,unknown,https://arxiv.org/abs/2501.12948,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,STUDY_PLAN.md
+Paper,,,2023,,free,https://arxiv.org/abs/2305.20050,Let's Verify Step by Step,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2408.03314,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,STUDY_PLAN.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,STUDY_PLAN.md
+Article,,,,,free,https://huggingface.co/spaces/OpenEvals/evaluation-guidebook,The LLM Evaluation Guidebook,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.14782,Lessons from the Trenches on Reproducible Evaluation of Language Models,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2411.00640,Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2306.05685,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,STUDY_PLAN.md
+Paper,,,2024,,free,https://arxiv.org/abs/2403.04132,Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference,STUDY_PLAN.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2310.17623,Proving Test Set Contamination in Black Box Language Models,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2211.09110,Holistic Evaluation of Language Models,STUDY_PLAN.md
+Article,,,2024,,unknown,https://hamel.dev/blog/posts/evals/,Your AI Product Needs Evals,STUDY_PLAN.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,STUDY_PLAN.md
+Article,,,2022,,unknown,https://kipp.ly/p/transformer-inference-arithmetic,Transformer Inference Arithmetic,STUDY_PLAN.md
+Article,,,2025,,unknown,https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms,Understanding and Coding the KV Cache in LLMs from Scratch,STUDY_PLAN.md
+Article,,,2023,Hugging Face,unknown,https://huggingface.co/blog/optimize-llm,Optimizing your LLM in Production,STUDY_PLAN.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2211.05102,Efficiently Scaling Transformer Inference,STUDY_PLAN.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,STUDY_PLAN.md
+Book,Designing Machine Learning Systems,,2022,Reilly,free,https://github.com/chiphuyen/dmls-book,book repo,STUDY_PLAN.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,STUDY_PLAN.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,STUDY_PLAN.md
+Article,,,2023,,unknown,https://eugeneyan.com/writing/llm-patterns/,Patterns for Building LLM-based Systems & Products,STUDY_PLAN.md
+Article,,,2024,,unknown,https://applied-llms.org/,What We've Learned From a Year of Building with LLMs,STUDY_PLAN.md
+Article,,,2024,,unknown,https://hamel.dev/blog/posts/evals/,Your AI Product Needs Evals,STUDY_PLAN.md
+Article,,,2022,,unknown,https://www.anthropic.com/engineering/building-effective-agents,Building Effective Agents,STUDY_PLAN.md
+Article,,,2024,,free,https://opensource.org/ai/open-source-ai-definition,The Open Source AI Definition 1.0,STUDY_PLAN.md
+Article,,,2025,,unknown,https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents,Effective context engineering for AI agents,STUDY_PLAN.md
+Article,,,2022,,free,https://genai.owasp.org/llm-top-10/,Top 10 for LLM Applications 2025,STUDY_PLAN.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,STUDY_PLAN.md
+Article,,,2025,,unknown,https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook,The Smol Training Playbook: The Secrets to Building World-Class LLMs,STUDY_PLAN.md
+Article,,,2025,,unknown,https://huggingface.co/blog/smollm3,"SmolLM3: smol, multilingual, long-context reasoner",STUDY_PLAN.md
+Article,,,2025,,unknown,https://samdobson.uk/posts/training-a-chatgpt-clone-for-cheap/,I trained a ChatGPT clone for £75,STUDY_PLAN.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2406.11794,DataComp-LM: In search of the next generation of training sets for language models,STUDY_PLAN.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1810.03993,Model Cards for Model Reporting,STUDY_PLAN.md
+Paper,,,2007,ACM SIGCOMM Computer Communication Review,unknown,https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf,How to Read a Paper,STUDY_PLAN.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2003.12206,Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program),STUDY_PLAN.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1807.03341,Troubling Trends in Machine Learning Scholarship,STUDY_PLAN.md
+Article,,,2023,,free,https://huyenchip.com/2023/08/16/llm-research-open-challenges.html,Open challenges in LLM research,STUDY_PLAN.md
+Book,Precalculus,,2021, OpenStax,free,https://openstax.org/details/books/precalculus-2e,official page,index.md
+Book,College Algebra,,2021, OpenStax,free,https://openstax.org/details/books/college-algebra-2e,official page,index.md
+Book,Precalculus,,,,free,https://www.stitz-zeager.com/,official page,index.md
+Book,Precalculus: Mathematics for Calculus,,2024, Cengage,paid,https://www.stewartmath.com/,author page,index.md
+Book,Calculus,,2017,Cambridge Press,free,https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/,MIT OpenCourseWare page,index.md
+Book,Calculus,,2016,OpenStax,free,https://openstax.org/details/books/calculus-volume-1,Volume 1,index.md
+Book,Calculus: Early Transcendentals,,2020, Cengage,paid,https://www.stewartcalculus.com/,author page,index.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,index.md
+Book,Introduction to Linear Algebra,,2023,Cambridge Press,free,https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html,official page,index.md
+Book,"Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares",,2018,Cambridge University Press,free,https://web.stanford.edu/~boyd/vmls/,official page,index.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,index.md
+Book,Linear Algebra and Its Applications,,2020, Pearson,paid,https://www.pearson.com/en-us/subject-catalog/p/linear-algebra-and-its-applications/P200000006235/9780136880929,publisher page,index.md
+Book,Linear Algebra,,,,free,https://hefferon.net/linearalgebra/,official page,index.md
+Book,Linear Algebra Done Right,,2024, Springer,free,https://linear.axler.net,official page,index.md
+Book,Linear Algebra and Learning from Data,,2019,Cambridge Press,paid,https://math.mit.edu/~gs/learningfromdata/,official page,index.md
+Book,Introduction to Probability,,2019,CRC,free,https://probabilitybook.net/,official free PDF,index.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,index.md
+Book,Introduction to Probability,,2008, Athena Scientific,paid,http://www.athenasc.com/probbook.html,official page,index.md
+Book,All of Statistics: A Concise Course in Statistical Inference,,2004,Springer,paid,https://link.springer.com/book/10.1007/978-0-387-21736-9,official page,index.md
+Book,Probabilistic Machine Learning: An Introduction,,2022,MIT Press,free,https://probml.github.io/pml-book/book1.html,official page,index.md
+Book,"Information Theory, Inference, and Learning Algorithms",,2003,Cambridge University Press,free,https://www.inference.org.uk/itila/book.html,official page,index.md
+Book,Pattern Recognition and Machine Learning,,2006,Springer,free,https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/,official page,index.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-09-Visual-Information/,Visual Information Theory,index.md
+Book,Mathematics for Machine Learning,,2020,Cambridge University Press,free,https://mml-book.github.io,official page,index.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,index.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/chapter_optimization/index.html,"chapter 12, ""Optimization Algorithms""",index.md
+Book,Convex Optimization,,2004,Cambridge University Press,free,https://web.stanford.edu/~boyd/cvxbook/,official page,index.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1609.04747,An overview of gradient descent optimization algorithms,index.md
+Article,,,2017,Distill,unknown,https://distill.pub/2017/momentum/,Why Momentum Really Works,index.md
+Paper,,,1991,ACM Computing Surveys,unknown,https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html,What Every Computer Scientist Should Know About Floating-Point Arithmetic,index.md
+Paper,,,2018,ICLR,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,index.md
+Article,,,2020,,unknown,https://nhigham.com/2020/06/02/what-is-bfloat16-arithmetic/,What Is Bfloat16 Arithmetic?,index.md
+Article,,,2019,,unknown,http://www.incompleteideas.net/IncIdeas/BitterLesson.html,The Bitter Lesson,index.md
+Book,Think Python,,,,free,https://allendowney.github.io/ThinkPython/,official page,index.md
+Book,Automate the Boring Stuff with Python,,,,free,https://automatetheboringstuff.com,official page,index.md
+Book,Python Data Science Handbook,,,,free,https://jakevdp.github.io/PythonDataScienceHandbook/,official page,index.md
+Book,Pro Git,,,,free,https://git-scm.com/book/en/v2,official page,index.md
+Book,Fluent Python,,,,paid,https://www.fluentpython.com/,official page,index.md
+Article,Build a Large Language Model (From Scratch),,2025,,unknown,https://sebastianraschka.com/teaching/pytorch-1h/,PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs,index.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,index.md
+Book,Machine Learning Engineering Open Book,,,,free,https://github.com/stas00/ml-engineering,official page,index.md
+Book,The Ultra-Scale Playbook: Training LLMs on GPU Clusters,,2025,,free,https://huggingface.co/spaces/nanotron/ultrascale-playbook,free online edition,index.md
+Book,Programming Massively Parallel Processors,,,,paid,https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0,official page,index.md
+Article,,,2022,,unknown,https://horace.io/brrr_intro.html,Making Deep Learning Go Brrrr From First Principles,index.md
+Article,,,2023,,unknown,https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/,Which GPU(s) to Get for Deep Learning,index.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,index.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,index.md
+Article,,,,,unknown,https://developer.nvidia.com/blog/even-easier-introduction-cuda/,An Even Easier Introduction to CUDA,index.md
+Book,An Introduction to Statistical Learning with Applications in Python,,2023,Springer,free,https://www.statlearning.com,official page,index.md
+Book,Hands-On Machine Learning with Scikit-Learn and PyTorch,,,,free,https://github.com/ageron/handson-mlp,official notebooks,index.md
+Book,The Hundred-Page Machine Learning Book,,2019,,free,https://themlbook.com/,official page,index.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,index.md
+Book,The Elements of Statistical Learning,,,,free,https://hastie.su.domains/ElemStatLearn/,official page,index.md
+Article,,,2012,Communications of the ACM,unknown,https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf,A Few Useful Things to Know About Machine Learning,index.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,index.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/,official page,index.md
+Book,Hands-On Machine Learning with Scikit-Learn and PyTorch,,,,free,https://github.com/ageron/handson-mlp,official notebooks,index.md
+Book,Deep Learning: Foundations and Concepts,,2024,Springer,free,https://www.bishopbook.com/,official page,index.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,index.md
+Article,,,2019,,unknown,https://karpathy.github.io/2019/04/25/recipe/,A Recipe for Training Neural Networks,index.md
+Article,,,2023,Google Research,free,https://github.com/google-research/tuning_playbook,Deep Learning Tuning Playbook,index.md
+Paper,,,2014,Journal of Machine Learning Research,unknown,https://jmlr.org/papers/v15/srivastava14a.html,Dropout: A Simple Way to Prevent Neural Networks from Overfitting,index.md
+Book,Neural Networks and Deep Learning,,2015,Determination Press,free,http://neuralnetworksanddeeplearning.com/,official page,index.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,index.md
+Book,Deep Learning: Foundations and Concepts,,2024,Springer,free,https://www.bishopbook.com/,official page,index.md
+Book,Deep Learning,,2016,MIT Press,free,https://www.deeplearningbook.org,official page,index.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-08-Backprop/,Calculus on Computational Graphs: Backpropagation,index.md
+Article,,,2017,n handout,unknown,https://cs231n.stanford.edu/handouts/derivatives.pdf,"Derivatives, Backpropagation, and Vectorization",index.md
+Paper,,,1986,Nature,paid,https://www.nature.com/articles/323533a0,Learning representations by back-propagating errors,index.md
+Paper,,,2018,Journal of Machine Learning Research,unknown,https://arxiv.org/abs/1502.05767,Automatic differentiation in machine learning: a survey,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Book,Dive into Deep Learning,,2023,Cambridge University Press,free,https://d2l.ai/,official page,index.md
+Book,Introduction to Natural Language Processing,,2019,MIT Press,free,https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf,free draft PDF,index.md
+Article,,,2019,,unknown,https://jalammar.github.io/illustrated-word2vec/,The Illustrated Word2vec,index.md
+Paper,,,2003,,unknown,https://www.jmlr.org/papers/v3/bengio03a.html,A Neural Probabilistic Language Model,index.md
+Paper,,,2013,,unknown,https://arxiv.org/abs/1301.3781,Efficient Estimation of Word Representations in Vector Space,index.md
+Paper,,,2014,,unknown,https://nlp.stanford.edu/projects/glove/,GloVe: Global Vectors for Word Representation,index.md
+Article,,,2015,,unknown,https://karpathy.github.io/2015/05/21/rnn-effectiveness/,The Unreasonable Effectiveness of Recurrent Neural Networks,index.md
+Article,,,2015,,unknown,https://colah.github.io/posts/2015-08-Understanding-LSTMs/,Understanding LSTM Networks,index.md
+Paper,,,2014,,unknown,https://arxiv.org/abs/1409.3215,Sequence to Sequence Learning with Neural Networks,index.md
+Article,,,2018,,unknown,https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/,Visualizing A Neural Machine Translation Model,index.md
+Paper,,,2018,ELMo,unknown,https://arxiv.org/abs/1802.05365,Deep contextualized word representations,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Book,Understanding Deep Learning,,2023,MIT Press,free,https://udlbook.github.io/udlbook/,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Article,,,2018,,unknown,https://jalammar.github.io/illustrated-transformer/,The Illustrated Transformer,index.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1706.03762,Attention Is All You Need,index.md
+Article,,,2018,,unknown,https://nlp.seas.harvard.edu/annotated-transformer/,The Annotated Transformer,index.md
+Paper,,,2022,,free,https://arxiv.org/abs/2207.09238,Formal Algorithms for Transformers,index.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1810.04805,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,index.md
+Paper,,,2021,,free,https://arxiv.org/abs/2104.09864,RoFormer: Enhanced Transformer with Rotary Position Embedding,index.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2002.04745,On Layer Normalization in the Transformer Architecture,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.04434,"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",index.md
+Article,,,2025,,free,https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison,The Big LLM Architecture Comparison,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,index.md
+Paper,,,2015,,unknown,https://arxiv.org/abs/1508.07909,Neural Machine Translation of Rare Words with Subword Units,index.md
+Paper,,,,,free,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,Language Models are Unsupervised Multitask Learners,index.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1804.10959,Subword Regularization,index.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1609.08144,Google's Neural Machine Translation System,index.md
+Paper,,,2016,,unknown,https://arxiv.org/abs/1608.05859,Using the Output Embedding to Improve Language Models,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.15425,Language Model Tokenizers Introduce Unfairness Between Languages,index.md
+Paper,,,2021,,free,https://arxiv.org/abs/2105.13626,ByT5: Towards a token-free future with pre-trained byte-to-byte models,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Paper,,,,,free,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,Language Models are Unsupervised Multitask Learners,index.md
+Paper,,,,,unknown,https://arxiv.org/abs/2005.14165,Language Models are Few-Shot Learners,index.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1904.09751,The Curious Case of Neural Text Degeneration,index.md
+Article,,,2020,Hugging Face blog,unknown,https://huggingface.co/blog/how-to-generate,How to generate text: using different decoding methods for language generation with Transformers,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,index.md
+Article,,,2021,,free,https://transformer-circuits.pub/2021/framework/index.html,A Mathematical Framework for Transformer Circuits,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Article,,,2025,,unknown,https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook,The Smol Training Playbook: The Secrets to Building World-Class LLMs,index.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,index.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2001.08361,Scaling Laws for Neural Language Models,index.md
+Paper,,,2022,Chinchilla,unknown,https://arxiv.org/abs/2203.15556,Training Compute-Optimal Large Language Models,index.md
+Paper,,,2020,,free,https://arxiv.org/abs/2101.00027,The Pile: An 800GB Dataset of Diverse Text for Language Modeling,index.md
+Paper,,,2021,,unknown,https://arxiv.org/abs/2107.06499,Deduplicating Training Data Makes Language Models Better,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2306.01116,The RefinedWeb Dataset for Falcon LLM,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2406.17557,The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale,index.md
+Paper,,,2025,,free,https://arxiv.org/abs/2506.20920,FineWeb2: One Pipeline to Scale Them All,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.00159,Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.00838,OLMo: Accelerating the Science of Language Models,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2407.21783,The Llama 3 Herd of Models,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2412.19437,DeepSeek-V3 Technical Report,index.md
+Book,The Ultra-Scale Playbook: Training LLMs on GPU Clusters,,2025,,free,https://huggingface.co/spaces/nanotron/ultrascale-playbook,free online edition,index.md
+Book,Machine Learning Engineering Open Book,,,,free,https://github.com/stas00/ml-engineering,official page,index.md
+Book,How to Scale Your Model: A Systems View of LLMs on TPUs,,2025,,free,https://jax-ml.github.io/scaling-book/,free online edition,index.md
+Article,,,2021,,unknown,https://lilianweng.github.io/posts/2021-09-25-train-large/,How to Train Really Large Models on Many GPUs?,index.md
+Article,,,2022,,unknown,https://horace.io/brrr_intro.html,Making Deep Learning Go Brrrr From First Principles,index.md
+Article,,,2023,EleutherAI,unknown,https://blog.eleuther.ai/transformer-math/,Transformer Math 101,index.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1710.03740,Mixed Precision Training,index.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1910.02054,ZeRO: Memory Optimizations Toward Training Trillion Parameter Models,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2304.11277,PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel,index.md
+Paper,,,2019,,unknown,https://arxiv.org/abs/1909.08053,Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2205.14135,FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,index.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,index.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Paper,,,2021,,free,https://arxiv.org/abs/2106.09685,LoRA: Low-Rank Adaptation of Large Language Models,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.14314,QLoRA: Efficient Finetuning of Quantized LLMs,index.md
+Article,,,2025,,unknown,https://thinkingmachines.ai/blog/lora/,LoRA Without Regret,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.09673,LoRA Learns Less and Forgets Less,index.md
+Paper,,,2021,,unknown,https://arxiv.org/abs/2109.01652,Finetuned Language Models Are Zero-Shot Learners,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.11206,LIMA: Less Is More for Alignment,index.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Article,,,2022,,unknown,https://huggingface.co/blog/rlhf,Illustrating Reinforcement Learning from Human Feedback (RLHF),index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2203.02155,Training language models to follow instructions with human feedback,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2305.18290,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2204.05862,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2212.08073,Constitutional AI: Harmlessness from AI Feedback,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2411.15124,Tülu 3: Pushing Frontiers in Open Language Model Post-Training,index.md
+Article,,,2024,,unknown,https://lilianweng.github.io/posts/2024-11-28-reward-hacking/,Reward Hacking in Reinforcement Learning,index.md
+Paper,,,2017,,unknown,https://arxiv.org/abs/1707.06347,Proximal Policy Optimization Algorithms,index.md
+Book,Build a Reasoning Model (From Scratch),,2026,Manning,free,https://sebastianraschka.com/reasoning-from-scratch/,official hub,index.md
+Book,Reinforcement Learning: An Introduction,,2018, MIT Press,free,http://incompleteideas.net/book/the-book-2nd.html,official page,index.md
+Book,Reinforcement Learning from Human Feedback,,2026,Manning,free,https://rlhfbook.com/,official page,index.md
+Article,,,2025,,unknown,https://magazine.sebastianraschka.com/p/understanding-reasoning-llms,Understanding Reasoning LLMs,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2201.11903,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2203.11171,Self-Consistency Improves Chain of Thought Reasoning in Language Models,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2402.03300,DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models,index.md
+Paper,,,2025,,unknown,https://arxiv.org/abs/2501.12948,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,index.md
+Paper,,,2023,,free,https://arxiv.org/abs/2305.20050,Let's Verify Step by Step,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2408.03314,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,index.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,index.md
+Article,,,,,free,https://huggingface.co/spaces/OpenEvals/evaluation-guidebook,The LLM Evaluation Guidebook,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2405.14782,Lessons from the Trenches on Reproducible Evaluation of Language Models,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2411.00640,Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2306.05685,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,index.md
+Paper,,,2024,,free,https://arxiv.org/abs/2403.04132,Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference,index.md
+Paper,,,2023,,unknown,https://arxiv.org/abs/2310.17623,Proving Test Set Contamination in Black Box Language Models,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2211.09110,Holistic Evaluation of Language Models,index.md
+Article,,,2024,,unknown,https://hamel.dev/blog/posts/evals/,Your AI Product Needs Evals,index.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,index.md
+Article,,,2022,,unknown,https://kipp.ly/p/transformer-inference-arithmetic,Transformer Inference Arithmetic,index.md
+Article,,,2025,,unknown,https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms,Understanding and Coding the KV Cache in LLMs from Scratch,index.md
+Article,,,2023,Hugging Face,unknown,https://huggingface.co/blog/optimize-llm,Optimizing your LLM in Production,index.md
+Paper,,,2022,,unknown,https://arxiv.org/abs/2211.05102,Efficiently Scaling Transformer Inference,index.md
+Book,AI Engineering,,2025,Reilly,free,https://github.com/chiphuyen/aie-book,book repo,index.md
+Book,Designing Machine Learning Systems,,2022,Reilly,free,https://github.com/chiphuyen/dmls-book,book repo,index.md
+Book,Hands-On Large Language Models,,2024,Reilly,free,https://llm-book.com/,official page,index.md
+Book,Speech and Language Processing,,,,free,https://web.stanford.edu/~jurafsky/slp3/,official page,index.md
+Article,,,2023,,unknown,https://eugeneyan.com/writing/llm-patterns/,Patterns for Building LLM-based Systems & Products,index.md
+Article,,,2024,,unknown,https://applied-llms.org/,What We've Learned From a Year of Building with LLMs,index.md
+Article,,,2024,,unknown,https://hamel.dev/blog/posts/evals/,Your AI Product Needs Evals,index.md
+Article,,,2022,,unknown,https://www.anthropic.com/engineering/building-effective-agents,Building Effective Agents,index.md
+Article,,,2024,,free,https://opensource.org/ai/open-source-ai-definition,The Open Source AI Definition 1.0,index.md
+Article,,,2025,,unknown,https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents,Effective context engineering for AI agents,index.md
+Article,,,2022,,free,https://genai.owasp.org/llm-top-10/,Top 10 for LLM Applications 2025,index.md
+Book,Build a Large Language Model (From Scratch),,2024,Manning,free,https://www.manning.com/books/build-a-large-language-model-from-scratch,official page,index.md
+Article,,,2025,,unknown,https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook,The Smol Training Playbook: The Secrets to Building World-Class LLMs,index.md
+Article,,,2025,,unknown,https://huggingface.co/blog/smollm3,"SmolLM3: smol, multilingual, long-context reasoner",index.md
+Article,,,2025,,unknown,https://samdobson.uk/posts/training-a-chatgpt-clone-for-cheap/,I trained a ChatGPT clone for £75,index.md
+Paper,,,2024,,unknown,https://arxiv.org/abs/2406.11794,DataComp-LM: In search of the next generation of training sets for language models,index.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1810.03993,Model Cards for Model Reporting,index.md
+Paper,,,2007,ACM SIGCOMM Computer Communication Review,unknown,https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf,How to Read a Paper,index.md
+Paper,,,2020,,unknown,https://arxiv.org/abs/2003.12206,Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program),index.md
+Paper,,,2018,,unknown,https://arxiv.org/abs/1807.03341,Troubling Trends in Machine Learning Scholarship,index.md
+Article,,,2023,,free,https://huyenchip.com/2023/08/16/llm-research-open-challenges.html,Open challenges in LLM research,index.md

@@ -14,5 +14,7 @@ site/
 .DS_Store
 .pre-commit.yaml
 
-# Large book PDFs, track books/free/README.md only
-books/free/*.pdf
+# books/ contributes the Markdown conversions.
+books/**/*.pdf
+books/**/*.djvu
+books/**/*.epub
