@@ -1,0 +1,1439 @@
+================================================================================
+BOOK LOCATOR INDEX - All 164 Cited Books
+================================================================================
+
+[  1] Precalculus
+      Year: 2021
+      Source: STUDY_PLAN.md
+      Known URL: https://openstax.org/details/books/precalculus-2e
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%22%20
+        - OpenStax: https://openstax.org/search?query=Precalculus
+        - Archive.org: https://archive.org/search.php?query=Precalculus
+
+[  2] College Algebra
+      Year: 2021
+      Source: STUDY_PLAN.md
+      Known URL: https://openstax.org/details/books/college-algebra-2e
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22College%20Algebra%22%20
+        - OpenStax: https://openstax.org/search?query=College%20Algebra
+        - Archive.org: https://archive.org/search.php?query=College%20Algebra
+
+[  3] Precalculus
+      Source: STUDY_PLAN.md
+      Known URL: https://www.stitz-zeager.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%22%20
+        - OpenStax: https://openstax.org/search?query=Precalculus
+        - Archive.org: https://archive.org/search.php?query=Precalculus
+
+[  4] Precalculus: Mathematics for Calculus
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.stewartmath.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%3A%20Mathematics%20for
+        - OpenStax: https://openstax.org/search?query=Precalculus%3A%20Mathematics%20for%2
+        - Archive.org: https://archive.org/search.php?query=Precalculus%3A%20Mathematics%20fo
+
+[  5] Calculus
+      Year: 2017
+      Source: STUDY_PLAN.md
+      Known URL: https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%22%20
+        - OpenStax: https://openstax.org/search?query=Calculus
+        - Archive.org: https://archive.org/search.php?query=Calculus
+
+[  6] Calculus
+      Year: 2016
+      Source: STUDY_PLAN.md
+      Known URL: https://openstax.org/details/books/calculus-volume-1
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%22%20
+        - OpenStax: https://openstax.org/search?query=Calculus
+        - Archive.org: https://archive.org/search.php?query=Calculus
+
+[  7] Calculus: Early Transcendentals
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://www.stewartcalculus.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%3A%20Early%20Transcendent
+        - OpenStax: https://openstax.org/search?query=Calculus%3A%20Early%20Transcendental
+        - Archive.org: https://archive.org/search.php?query=Calculus%3A%20Early%20Transcenden
+
+[  8] Mathematics for Machine Learning
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[  9] Introduction to Linear Algebra
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Linear%20Algeb
+        - OpenStax: https://openstax.org/search?query=Introduction%20to%20Linear%20Algebra
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Linear%20Alge
+
+[ 10] Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares
+      Year: 2018
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~boyd/vmls/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Applied%20Line
+        - OpenStax: https://openstax.org/search?query=Introduction%20to%20Applied%20Linear
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Applied%20Lin
+
+[ 11] Mathematics for Machine Learning
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[ 12] Linear Algebra and Its Applications
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://www.pearson.com/en-us/subject-catalog/p/linear-algebra-and-its-applications/P200000006235/9780136880929
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20and%20Its%20App
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20and%20Its%20Appli
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20and%20Its%20Ap
+
+[ 13] Linear Algebra
+      Source: STUDY_PLAN.md
+      Known URL: https://hefferon.net/linearalgebra/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%22%20
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra
+
+[ 14] Linear Algebra Done Right
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://linear.axler.net
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20Done%20Right%22
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20Done%20Right
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20Done%20Right
+
+[ 15] Linear Algebra and Learning from Data
+      Year: 2019
+      Source: STUDY_PLAN.md
+      Known URL: https://math.mit.edu/~gs/learningfromdata/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20and%20Learning%
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20and%20Learning%20
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20and%20Learning
+
+[ 16] Introduction to Probability
+      Year: 2019
+      Source: STUDY_PLAN.md
+      Known URL: https://probabilitybook.net/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Probability%22
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Probability
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Probability
+
+[ 17] Mathematics for Machine Learning
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[ 18] Introduction to Probability
+      Year: 2008
+      Source: STUDY_PLAN.md
+      Known URL: http://www.athenasc.com/probbook.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Probability%22
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Probability
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Probability
+
+[ 19] All of Statistics: A Concise Course in Statistical Inference
+      Year: 2004
+      Source: STUDY_PLAN.md
+      Known URL: https://link.springer.com/book/10.1007/978-0-387-21736-9
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22All%20of%20Statistics%3A%20A%20Con
+        - OpenStax: https://openstax.org/search?query=All%20of%20Statistics%3A%20A%20Conci
+        - Archive.org: https://archive.org/search.php?query=All%20of%20Statistics%3A%20A%20Co
+
+[ 20] Probabilistic Machine Learning: An Introduction
+      Year: 2022
+      Source: STUDY_PLAN.md
+      Known URL: https://probml.github.io/pml-book/book1.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Probabilistic%20Machine%20Learning
+        - Archive.org: https://archive.org/search.php?query=Probabilistic%20Machine%20Learnin
+        - MIT OCW: https://ocw.mit.edu/search/?q=Probabilistic%20Machine%20Learning%3A%20
+
+[ 21] Information Theory, Inference, and Learning Algorithms
+      Year: 2003
+      Source: STUDY_PLAN.md
+      Known URL: https://www.inference.org.uk/itila/book.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Information%20Theory%2C%20Inferenc
+        - Archive.org: https://archive.org/search.php?query=Information%20Theory%2C%20Inferen
+        - MIT OCW: https://ocw.mit.edu/search/?q=Information%20Theory%2C%20Inference%2C%2
+
+[ 22] Pattern Recognition and Machine Learning
+      Year: 2006
+      Source: STUDY_PLAN.md
+      Known URL: https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Pattern%20Recognition%20and%20Mach
+        - Archive.org: https://archive.org/search.php?query=Pattern%20Recognition%20and%20Mac
+        - MIT OCW: https://ocw.mit.edu/search/?q=Pattern%20Recognition%20and%20Machine%20
+
+[ 23] Mathematics for Machine Learning
+      Year: 2020
+      Source: STUDY_PLAN.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[ 24] Deep Learning
+      Year: 2016
+      Source: STUDY_PLAN.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[ 25] Dive into Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://d2l.ai/chapter_optimization/index.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[ 26] Convex Optimization
+      Year: 2004
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~boyd/cvxbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Convex%20Optimization%22%20
+        - Archive.org: https://archive.org/search.php?query=Convex%20Optimization
+        - MIT OCW: https://ocw.mit.edu/search/?q=Convex%20Optimization
+
+[ 27] Think Python
+      Source: STUDY_PLAN.md
+      Known URL: https://allendowney.github.io/ThinkPython/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Think%20Python%22%20
+        - Archive.org: https://archive.org/search.php?query=Think%20Python
+        - MIT OCW: https://ocw.mit.edu/search/?q=Think%20Python
+
+[ 28] Automate the Boring Stuff with Python
+      Source: STUDY_PLAN.md
+      Known URL: https://automatetheboringstuff.com
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Automate%20the%20Boring%20Stuff%20
+        - Archive.org: https://archive.org/search.php?query=Automate%20the%20Boring%20Stuff%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Automate%20the%20Boring%20Stuff%20with%2
+
+[ 29] Python Data Science Handbook
+      Source: STUDY_PLAN.md
+      Known URL: https://jakevdp.github.io/PythonDataScienceHandbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Python%20Data%20Science%20Handbook
+        - Archive.org: https://archive.org/search.php?query=Python%20Data%20Science%20Handboo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Python%20Data%20Science%20Handbook
+
+[ 30] Pro Git
+      Source: STUDY_PLAN.md
+      Known URL: https://git-scm.com/book/en/v2
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Pro%20Git%22%20
+        - Archive.org: https://archive.org/search.php?query=Pro%20Git
+        - MIT OCW: https://ocw.mit.edu/search/?q=Pro%20Git
+
+[ 31] Fluent Python
+      Source: STUDY_PLAN.md
+      Known URL: https://www.fluentpython.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Fluent%20Python%22%20
+        - Archive.org: https://archive.org/search.php?query=Fluent%20Python
+        - MIT OCW: https://ocw.mit.edu/search/?q=Fluent%20Python
+
+[ 32] AI Engineering
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[ 33] Machine Learning Engineering Open Book
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/stas00/ml-engineering
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Machine%20Learning%20Engineering%2
+        - Archive.org: https://archive.org/search.php?query=Machine%20Learning%20Engineering%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Machine%20Learning%20Engineering%20Open%
+
+[ 34] The Ultra-Scale Playbook: Training LLMs on GPU Clusters
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Ultra-Scale%20Playbook%3A%20
+        - Archive.org: https://archive.org/search.php?query=The%20Ultra-Scale%20Playbook%3A%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Ultra-Scale%20Playbook%3A%20Traini
+
+[ 35] Programming Massively Parallel Processors
+      Source: STUDY_PLAN.md
+      Known URL: https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Programming%20Massively%20Parallel
+        - Archive.org: https://archive.org/search.php?query=Programming%20Massively%20Paralle
+        - MIT OCW: https://ocw.mit.edu/search/?q=Programming%20Massively%20Parallel%20Pro
+
+[ 36] An Introduction to Statistical Learning with Applications in Python
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://www.statlearning.com
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22An%20Introduction%20to%20Statistic
+        - Archive.org: https://archive.org/search.php?query=An%20Introduction%20to%20Statisti
+        - MIT OCW: https://ocw.mit.edu/search/?q=An%20Introduction%20to%20Statistical%20L
+
+[ 37] Hands-On Machine Learning with Scikit-Learn and PyTorch
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/ageron/handson-mlp
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Machine%20Learning%20wi
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Machine%20Learning%20w
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Machine%20Learning%20with%20S
+
+[ 38] The Hundred-Page Machine Learning Book
+      Year: 2019
+      Source: STUDY_PLAN.md
+      Known URL: https://themlbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Hundred-Page%20Machine%20Lea
+        - Archive.org: https://archive.org/search.php?query=The%20Hundred-Page%20Machine%20Le
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Hundred-Page%20Machine%20Learning%
+
+[ 39] Understanding Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[ 40] The Elements of Statistical Learning
+      Source: STUDY_PLAN.md
+      Known URL: https://hastie.su.domains/ElemStatLearn/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Elements%20of%20Statistical%
+        - Archive.org: https://archive.org/search.php?query=The%20Elements%20of%20Statistical
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Elements%20of%20Statistical%20Lear
+
+[ 41] Understanding Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[ 42] Dive into Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://d2l.ai/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[ 43] Hands-On Machine Learning with Scikit-Learn and PyTorch
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/ageron/handson-mlp
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Machine%20Learning%20wi
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Machine%20Learning%20w
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Machine%20Learning%20with%20S
+
+[ 44] Deep Learning: Foundations and Concepts
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.bishopbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%3A%20Foundations%2
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning%3A%20Foundations%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning%3A%20Foundations%20and%2
+
+[ 45] Deep Learning
+      Year: 2016
+      Source: STUDY_PLAN.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[ 46] Neural Networks and Deep Learning
+      Year: 2015
+      Source: STUDY_PLAN.md
+      Known URL: http://neuralnetworksanddeeplearning.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Neural%20Networks%20and%20Deep%20L
+        - Archive.org: https://archive.org/search.php?query=Neural%20Networks%20and%20Deep%20
+        - MIT OCW: https://ocw.mit.edu/search/?q=Neural%20Networks%20and%20Deep%20Learnin
+
+[ 47] Understanding Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[ 48] Deep Learning: Foundations and Concepts
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.bishopbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%3A%20Foundations%2
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning%3A%20Foundations%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning%3A%20Foundations%20and%2
+
+[ 49] Deep Learning
+      Year: 2016
+      Source: STUDY_PLAN.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[ 50] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 51] Dive into Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://d2l.ai/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[ 52] Introduction to Natural Language Processing
+      Year: 2019
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Natural%20Lang
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Natural%20Lan
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Natural%20Language%2
+
+[ 53] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 54] Understanding Deep Learning
+      Year: 2023
+      Source: STUDY_PLAN.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[ 55] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 56] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 57] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 58] Hands-On Large Language Models
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[ 59] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 60] Hands-On Large Language Models
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[ 61] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 62] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 63] The Ultra-Scale Playbook: Training LLMs on GPU Clusters
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Ultra-Scale%20Playbook%3A%20
+        - Archive.org: https://archive.org/search.php?query=The%20Ultra-Scale%20Playbook%3A%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Ultra-Scale%20Playbook%3A%20Traini
+
+[ 64] Machine Learning Engineering Open Book
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/stas00/ml-engineering
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Machine%20Learning%20Engineering%2
+        - Archive.org: https://archive.org/search.php?query=Machine%20Learning%20Engineering%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Machine%20Learning%20Engineering%20Open%
+
+[ 65] How to Scale Your Model: A Systems View of LLMs on TPUs
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://jax-ml.github.io/scaling-book/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22How%20to%20Scale%20Your%20Model%3A
+        - Archive.org: https://archive.org/search.php?query=How%20to%20Scale%20Your%20Model%3
+        - MIT OCW: https://ocw.mit.edu/search/?q=How%20to%20Scale%20Your%20Model%3A%20A%2
+
+[ 66] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 67] Hands-On Large Language Models
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[ 68] AI Engineering
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[ 69] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: STUDY_PLAN.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[ 70] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 71] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: STUDY_PLAN.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[ 72] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 73] Build a Reasoning Model (From Scratch)
+      Year: 2026
+      Source: STUDY_PLAN.md
+      Known URL: https://sebastianraschka.com/reasoning-from-scratch/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Reasoning%20Model%20%2
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Reasoning%20Model%20%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Reasoning%20Model%20%28From%
+
+[ 74] Reinforcement Learning: An Introduction
+      Year: 2018
+      Source: STUDY_PLAN.md
+      Known URL: http://incompleteideas.net/book/the-book-2nd.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%3A%20An%2
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%3A%20An%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%3A%20An%20Intro
+
+[ 75] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: STUDY_PLAN.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[ 76] AI Engineering
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[ 77] AI Engineering
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[ 78] AI Engineering
+      Year: 2025
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[ 79] Designing Machine Learning Systems
+      Year: 2022
+      Source: STUDY_PLAN.md
+      Known URL: https://github.com/chiphuyen/dmls-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Designing%20Machine%20Learning%20S
+        - Archive.org: https://archive.org/search.php?query=Designing%20Machine%20Learning%20
+        - MIT OCW: https://ocw.mit.edu/search/?q=Designing%20Machine%20Learning%20Systems
+
+[ 80] Hands-On Large Language Models
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[ 81] Speech and Language Processing
+      Source: STUDY_PLAN.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[ 82] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: STUDY_PLAN.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[ 83] Precalculus
+      Year: 2021
+      Source: index.md
+      Known URL: https://openstax.org/details/books/precalculus-2e
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%22%20
+        - OpenStax: https://openstax.org/search?query=Precalculus
+        - Archive.org: https://archive.org/search.php?query=Precalculus
+
+[ 84] College Algebra
+      Year: 2021
+      Source: index.md
+      Known URL: https://openstax.org/details/books/college-algebra-2e
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22College%20Algebra%22%20
+        - OpenStax: https://openstax.org/search?query=College%20Algebra
+        - Archive.org: https://archive.org/search.php?query=College%20Algebra
+
+[ 85] Precalculus
+      Source: index.md
+      Known URL: https://www.stitz-zeager.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%22%20
+        - OpenStax: https://openstax.org/search?query=Precalculus
+        - Archive.org: https://archive.org/search.php?query=Precalculus
+
+[ 86] Precalculus: Mathematics for Calculus
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.stewartmath.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Precalculus%3A%20Mathematics%20for
+        - OpenStax: https://openstax.org/search?query=Precalculus%3A%20Mathematics%20for%2
+        - Archive.org: https://archive.org/search.php?query=Precalculus%3A%20Mathematics%20fo
+
+[ 87] Calculus
+      Year: 2017
+      Source: index.md
+      Known URL: https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%22%20
+        - OpenStax: https://openstax.org/search?query=Calculus
+        - Archive.org: https://archive.org/search.php?query=Calculus
+
+[ 88] Calculus
+      Year: 2016
+      Source: index.md
+      Known URL: https://openstax.org/details/books/calculus-volume-1
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%22%20
+        - OpenStax: https://openstax.org/search?query=Calculus
+        - Archive.org: https://archive.org/search.php?query=Calculus
+
+[ 89] Calculus: Early Transcendentals
+      Year: 2020
+      Source: index.md
+      Known URL: https://www.stewartcalculus.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Calculus%3A%20Early%20Transcendent
+        - OpenStax: https://openstax.org/search?query=Calculus%3A%20Early%20Transcendental
+        - Archive.org: https://archive.org/search.php?query=Calculus%3A%20Early%20Transcenden
+
+[ 90] Mathematics for Machine Learning
+      Year: 2020
+      Source: index.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[ 91] Introduction to Linear Algebra
+      Year: 2023
+      Source: index.md
+      Known URL: https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Linear%20Algeb
+        - OpenStax: https://openstax.org/search?query=Introduction%20to%20Linear%20Algebra
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Linear%20Alge
+
+[ 92] Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares
+      Year: 2018
+      Source: index.md
+      Known URL: https://web.stanford.edu/~boyd/vmls/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Applied%20Line
+        - OpenStax: https://openstax.org/search?query=Introduction%20to%20Applied%20Linear
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Applied%20Lin
+
+[ 93] Mathematics for Machine Learning
+      Year: 2020
+      Source: index.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[ 94] Linear Algebra and Its Applications
+      Year: 2020
+      Source: index.md
+      Known URL: https://www.pearson.com/en-us/subject-catalog/p/linear-algebra-and-its-applications/P200000006235/9780136880929
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20and%20Its%20App
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20and%20Its%20Appli
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20and%20Its%20Ap
+
+[ 95] Linear Algebra
+      Source: index.md
+      Known URL: https://hefferon.net/linearalgebra/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%22%20
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra
+
+[ 96] Linear Algebra Done Right
+      Year: 2024
+      Source: index.md
+      Known URL: https://linear.axler.net
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20Done%20Right%22
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20Done%20Right
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20Done%20Right
+
+[ 97] Linear Algebra and Learning from Data
+      Year: 2019
+      Source: index.md
+      Known URL: https://math.mit.edu/~gs/learningfromdata/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Linear%20Algebra%20and%20Learning%
+        - OpenStax: https://openstax.org/search?query=Linear%20Algebra%20and%20Learning%20
+        - Archive.org: https://archive.org/search.php?query=Linear%20Algebra%20and%20Learning
+
+[ 98] Introduction to Probability
+      Year: 2019
+      Source: index.md
+      Known URL: https://probabilitybook.net/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Probability%22
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Probability
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Probability
+
+[ 99] Mathematics for Machine Learning
+      Year: 2020
+      Source: index.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[100] Introduction to Probability
+      Year: 2008
+      Source: index.md
+      Known URL: http://www.athenasc.com/probbook.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Probability%22
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Probability
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Probability
+
+[101] All of Statistics: A Concise Course in Statistical Inference
+      Year: 2004
+      Source: index.md
+      Known URL: https://link.springer.com/book/10.1007/978-0-387-21736-9
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22All%20of%20Statistics%3A%20A%20Con
+        - OpenStax: https://openstax.org/search?query=All%20of%20Statistics%3A%20A%20Conci
+        - Archive.org: https://archive.org/search.php?query=All%20of%20Statistics%3A%20A%20Co
+
+[102] Probabilistic Machine Learning: An Introduction
+      Year: 2022
+      Source: index.md
+      Known URL: https://probml.github.io/pml-book/book1.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Probabilistic%20Machine%20Learning
+        - Archive.org: https://archive.org/search.php?query=Probabilistic%20Machine%20Learnin
+        - MIT OCW: https://ocw.mit.edu/search/?q=Probabilistic%20Machine%20Learning%3A%20
+
+[103] Information Theory, Inference, and Learning Algorithms
+      Year: 2003
+      Source: index.md
+      Known URL: https://www.inference.org.uk/itila/book.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Information%20Theory%2C%20Inferenc
+        - Archive.org: https://archive.org/search.php?query=Information%20Theory%2C%20Inferen
+        - MIT OCW: https://ocw.mit.edu/search/?q=Information%20Theory%2C%20Inference%2C%2
+
+[104] Pattern Recognition and Machine Learning
+      Year: 2006
+      Source: index.md
+      Known URL: https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Pattern%20Recognition%20and%20Mach
+        - Archive.org: https://archive.org/search.php?query=Pattern%20Recognition%20and%20Mac
+        - MIT OCW: https://ocw.mit.edu/search/?q=Pattern%20Recognition%20and%20Machine%20
+
+[105] Mathematics for Machine Learning
+      Year: 2020
+      Source: index.md
+      Known URL: https://mml-book.github.io
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Mathematics%20for%20Machine%20Lear
+        - Archive.org: https://archive.org/search.php?query=Mathematics%20for%20Machine%20Lea
+        - MIT OCW: https://ocw.mit.edu/search/?q=Mathematics%20for%20Machine%20Learning
+
+[106] Deep Learning
+      Year: 2016
+      Source: index.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[107] Dive into Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://d2l.ai/chapter_optimization/index.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[108] Convex Optimization
+      Year: 2004
+      Source: index.md
+      Known URL: https://web.stanford.edu/~boyd/cvxbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Convex%20Optimization%22%20
+        - Archive.org: https://archive.org/search.php?query=Convex%20Optimization
+        - MIT OCW: https://ocw.mit.edu/search/?q=Convex%20Optimization
+
+[109] Think Python
+      Source: index.md
+      Known URL: https://allendowney.github.io/ThinkPython/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Think%20Python%22%20
+        - Archive.org: https://archive.org/search.php?query=Think%20Python
+        - MIT OCW: https://ocw.mit.edu/search/?q=Think%20Python
+
+[110] Automate the Boring Stuff with Python
+      Source: index.md
+      Known URL: https://automatetheboringstuff.com
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Automate%20the%20Boring%20Stuff%20
+        - Archive.org: https://archive.org/search.php?query=Automate%20the%20Boring%20Stuff%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Automate%20the%20Boring%20Stuff%20with%2
+
+[111] Python Data Science Handbook
+      Source: index.md
+      Known URL: https://jakevdp.github.io/PythonDataScienceHandbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Python%20Data%20Science%20Handbook
+        - Archive.org: https://archive.org/search.php?query=Python%20Data%20Science%20Handboo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Python%20Data%20Science%20Handbook
+
+[112] Pro Git
+      Source: index.md
+      Known URL: https://git-scm.com/book/en/v2
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Pro%20Git%22%20
+        - Archive.org: https://archive.org/search.php?query=Pro%20Git
+        - MIT OCW: https://ocw.mit.edu/search/?q=Pro%20Git
+
+[113] Fluent Python
+      Source: index.md
+      Known URL: https://www.fluentpython.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Fluent%20Python%22%20
+        - Archive.org: https://archive.org/search.php?query=Fluent%20Python
+        - MIT OCW: https://ocw.mit.edu/search/?q=Fluent%20Python
+
+[114] AI Engineering
+      Year: 2025
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[115] Machine Learning Engineering Open Book
+      Source: index.md
+      Known URL: https://github.com/stas00/ml-engineering
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Machine%20Learning%20Engineering%2
+        - Archive.org: https://archive.org/search.php?query=Machine%20Learning%20Engineering%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Machine%20Learning%20Engineering%20Open%
+
+[116] The Ultra-Scale Playbook: Training LLMs on GPU Clusters
+      Year: 2025
+      Source: index.md
+      Known URL: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Ultra-Scale%20Playbook%3A%20
+        - Archive.org: https://archive.org/search.php?query=The%20Ultra-Scale%20Playbook%3A%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Ultra-Scale%20Playbook%3A%20Traini
+
+[117] Programming Massively Parallel Processors
+      Source: index.md
+      Known URL: https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-323-91231-0
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Programming%20Massively%20Parallel
+        - Archive.org: https://archive.org/search.php?query=Programming%20Massively%20Paralle
+        - MIT OCW: https://ocw.mit.edu/search/?q=Programming%20Massively%20Parallel%20Pro
+
+[118] An Introduction to Statistical Learning with Applications in Python
+      Year: 2023
+      Source: index.md
+      Known URL: https://www.statlearning.com
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22An%20Introduction%20to%20Statistic
+        - Archive.org: https://archive.org/search.php?query=An%20Introduction%20to%20Statisti
+        - MIT OCW: https://ocw.mit.edu/search/?q=An%20Introduction%20to%20Statistical%20L
+
+[119] Hands-On Machine Learning with Scikit-Learn and PyTorch
+      Source: index.md
+      Known URL: https://github.com/ageron/handson-mlp
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Machine%20Learning%20wi
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Machine%20Learning%20w
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Machine%20Learning%20with%20S
+
+[120] The Hundred-Page Machine Learning Book
+      Year: 2019
+      Source: index.md
+      Known URL: https://themlbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Hundred-Page%20Machine%20Lea
+        - Archive.org: https://archive.org/search.php?query=The%20Hundred-Page%20Machine%20Le
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Hundred-Page%20Machine%20Learning%
+
+[121] Understanding Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[122] The Elements of Statistical Learning
+      Source: index.md
+      Known URL: https://hastie.su.domains/ElemStatLearn/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Elements%20of%20Statistical%
+        - Archive.org: https://archive.org/search.php?query=The%20Elements%20of%20Statistical
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Elements%20of%20Statistical%20Lear
+
+[123] Understanding Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[124] Dive into Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://d2l.ai/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[125] Hands-On Machine Learning with Scikit-Learn and PyTorch
+      Source: index.md
+      Known URL: https://github.com/ageron/handson-mlp
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Machine%20Learning%20wi
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Machine%20Learning%20w
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Machine%20Learning%20with%20S
+
+[126] Deep Learning: Foundations and Concepts
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.bishopbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%3A%20Foundations%2
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning%3A%20Foundations%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning%3A%20Foundations%20and%2
+
+[127] Deep Learning
+      Year: 2016
+      Source: index.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[128] Neural Networks and Deep Learning
+      Year: 2015
+      Source: index.md
+      Known URL: http://neuralnetworksanddeeplearning.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Neural%20Networks%20and%20Deep%20L
+        - Archive.org: https://archive.org/search.php?query=Neural%20Networks%20and%20Deep%20
+        - MIT OCW: https://ocw.mit.edu/search/?q=Neural%20Networks%20and%20Deep%20Learnin
+
+[129] Understanding Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[130] Deep Learning: Foundations and Concepts
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.bishopbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%3A%20Foundations%2
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning%3A%20Foundations%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning%3A%20Foundations%20and%2
+
+[131] Deep Learning
+      Year: 2016
+      Source: index.md
+      Known URL: https://www.deeplearningbook.org
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Deep%20Learning%22%20
+        - Archive.org: https://archive.org/search.php?query=Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Deep%20Learning
+
+[132] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[133] Dive into Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://d2l.ai/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Dive%20into%20Deep%20Learning%22%2
+        - Archive.org: https://archive.org/search.php?query=Dive%20into%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Dive%20into%20Deep%20Learning
+
+[134] Introduction to Natural Language Processing
+      Year: 2019
+      Source: index.md
+      Known URL: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Introduction%20to%20Natural%20Lang
+        - Archive.org: https://archive.org/search.php?query=Introduction%20to%20Natural%20Lan
+        - MIT OCW: https://ocw.mit.edu/search/?q=Introduction%20to%20Natural%20Language%2
+
+[135] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[136] Understanding Deep Learning
+      Year: 2023
+      Source: index.md
+      Known URL: https://udlbook.github.io/udlbook/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Understanding%20Deep%20Learning%22
+        - Archive.org: https://archive.org/search.php?query=Understanding%20Deep%20Learning
+        - MIT OCW: https://ocw.mit.edu/search/?q=Understanding%20Deep%20Learning
+
+[137] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[138] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[139] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[140] Hands-On Large Language Models
+      Year: 2024
+      Source: index.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[141] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[142] Hands-On Large Language Models
+      Year: 2024
+      Source: index.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[143] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[144] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[145] The Ultra-Scale Playbook: Training LLMs on GPU Clusters
+      Year: 2025
+      Source: index.md
+      Known URL: https://huggingface.co/spaces/nanotron/ultrascale-playbook
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22The%20Ultra-Scale%20Playbook%3A%20
+        - Archive.org: https://archive.org/search.php?query=The%20Ultra-Scale%20Playbook%3A%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=The%20Ultra-Scale%20Playbook%3A%20Traini
+
+[146] Machine Learning Engineering Open Book
+      Source: index.md
+      Known URL: https://github.com/stas00/ml-engineering
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Machine%20Learning%20Engineering%2
+        - Archive.org: https://archive.org/search.php?query=Machine%20Learning%20Engineering%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Machine%20Learning%20Engineering%20Open%
+
+[147] How to Scale Your Model: A Systems View of LLMs on TPUs
+      Year: 2025
+      Source: index.md
+      Known URL: https://jax-ml.github.io/scaling-book/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22How%20to%20Scale%20Your%20Model%3A
+        - Archive.org: https://archive.org/search.php?query=How%20to%20Scale%20Your%20Model%3
+        - MIT OCW: https://ocw.mit.edu/search/?q=How%20to%20Scale%20Your%20Model%3A%20A%2
+
+[148] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%
+
+[149] Hands-On Large Language Models
+      Year: 2024
+      Source: index.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[150] AI Engineering
+      Year: 2025
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[151] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: index.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[152] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[153] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: index.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[154] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[155] Build a Reasoning Model (From Scratch)
+      Year: 2026
+      Source: index.md
+      Known URL: https://sebastianraschka.com/reasoning-from-scratch/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Reasoning%20Model%20%2
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Reasoning%20Model%20%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Reasoning%20Model%20%28From%
+
+[156] Reinforcement Learning: An Introduction
+      Year: 2018
+      Source: index.md
+      Known URL: http://incompleteideas.net/book/the-book-2nd.html
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%3A%20An%2
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%3A%20An%
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%3A%20An%20Intro
+
+[157] Reinforcement Learning from Human Feedback
+      Year: 2026
+      Source: index.md
+      Known URL: https://rlhfbook.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Reinforcement%20Learning%20from%20
+        - Archive.org: https://archive.org/search.php?query=Reinforcement%20Learning%20from%2
+        - MIT OCW: https://ocw.mit.edu/search/?q=Reinforcement%20Learning%20from%20Human%
+
+[158] AI Engineering
+      Year: 2025
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[159] AI Engineering
+      Year: 2025
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[160] AI Engineering
+      Year: 2025
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/aie-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22AI%20Engineering%22%20
+        - Archive.org: https://archive.org/search.php?query=AI%20Engineering
+        - MIT OCW: https://ocw.mit.edu/search/?q=AI%20Engineering
+
+[161] Designing Machine Learning Systems
+      Year: 2022
+      Source: index.md
+      Known URL: https://github.com/chiphuyen/dmls-book
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Designing%20Machine%20Learning%20S
+        - Archive.org: https://archive.org/search.php?query=Designing%20Machine%20Learning%20
+        - MIT OCW: https://ocw.mit.edu/search/?q=Designing%20Machine%20Learning%20Systems
+
+[162] Hands-On Large Language Models
+      Year: 2024
+      Source: index.md
+      Known URL: https://llm-book.com/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Hands-On%20Large%20Language%20Mode
+        - Archive.org: https://archive.org/search.php?query=Hands-On%20Large%20Language%20Mod
+        - MIT OCW: https://ocw.mit.edu/search/?q=Hands-On%20Large%20Language%20Models
+
+[163] Speech and Language Processing
+      Source: index.md
+      Known URL: https://web.stanford.edu/~jurafsky/slp3/
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Speech%20and%20Language%20Processi
+        - Archive.org: https://archive.org/search.php?query=Speech%20and%20Language%20Process
+        - MIT OCW: https://ocw.mit.edu/search/?q=Speech%20and%20Language%20Processing
+
+[164] Build a Large Language Model (From Scratch)
+      Year: 2024
+      Source: index.md
+      Known URL: https://www.manning.com/books/build-a-large-language-model-from-scratch
+      Search Strategies:
+        - Google Books: https://books.google.com/books?q=%22Build%20a%20Large%20Language%20Mod
+        - Archive.org: https://archive.org/search.php?query=Build%20a%20Large%20Language%20Mo
+        - MIT OCW: https://ocw.mit.edu/search/?q=Build%20a%20Large%20Language%20Model%20%

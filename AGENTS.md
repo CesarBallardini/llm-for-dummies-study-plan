@@ -12,9 +12,15 @@ see Git conventions below).
   The markdown is the product; `STUDY_PLAN.md` is the single source of truth for chapter
   scope, resources, and URLs.
 - `docs/learning-paths/` = 6 goal-first routes over the same chapters (index + Path 0-5),
-  mirroring Appendix D of `STUDY_PLAN.md`; edit both. Core chapters per path come from the
-  Map of Goals to Chapters; prerequisites are editorial; time totals are summed from the
-  chapters' `**Time.**` lines.
+  mirroring Appendix D of `STUDY_PLAN.md`; edit both, plus the "Two ways in" admonition in
+  `docs/index.md`. Cores come from the Map of Goals to Chapters, but verify that row against
+  the chapter text before trusting it (Path 5 was re-cored 21,23,24 -> 21,22,24 because
+  Ch 23 is a training capstone pulling in Ch 13-17). Prerequisites name sections, not whole
+  chapters, worded from the prerequisite chapter's `**Topics.**`. Before publishing a change,
+  audit each core chapter's *backward* citations: one to an earlier chapter that is neither
+  core nor prerequisite is a gap the page must name; a later one is a forward pointer, and a
+  range like "Chapters 17-21" is not a dependency on all of them. Time totals are summed from
+  the chapters' `**Time.**` lines and must match Appendix D.
 - NOT a Python package: `[tool.uv] package = false`. `src/llm_for_dummies/` has only
   `__init__.py`, which exists solely to keep pyright/pyrefly green until chapter code lands.
 - Published at <https://katra.ballardini.com.ar/llm-for-dummies-study-plan/> by
