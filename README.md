@@ -1,5 +1,9 @@
 # LLM for Dummies
 
+[![Deploy book to Pages](https://github.com/CesarBallardini/llm-for-dummies-study-plan/actions/workflows/deploy-book.yml/badge.svg?branch=main)](https://github.com/CesarBallardini/llm-for-dummies-study-plan/actions/workflows/deploy-book.yml)
+[![deploy](https://img.shields.io/github/deployments/CesarBallardini/llm-for-dummies-study-plan/github-pages?label=deploy)](https://github.com/CesarBallardini/llm-for-dummies-study-plan/actions/workflows/deploy-book.yml)
+[![site](https://img.shields.io/website?url=https%3A%2F%2Fkatra.ballardini.com.ar%2Fllm-for-dummies-study-plan%2F&label=site&up_message=online&down_message=offline)](https://katra.ballardini.com.ar/llm-for-dummies-study-plan/)
+
 A book-style course that starts at college algebra and ends at building, training,
 operating and improving open-source large language models. The full syllabus is
 described in [STUDY_PLAN.md](STUDY_PLAN.md); this repository renders it as a
