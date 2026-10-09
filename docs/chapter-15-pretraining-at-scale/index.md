@@ -25,7 +25,8 @@ and SmolLM3.
   of personal information
 - Corpus construction: text extraction, language identification, quality filtering,
   deduplication, and removal of benchmark data (decontamination)
-- Open corpora: The Pile, RefinedWeb, Dolma, FineWeb, and FineWeb-Edu
+- Open corpora: The Pile, RefinedWeb, Dolma, FineWeb, FineWeb-Edu, and the
+  multilingual FineWeb2
 - Data mixtures, synthetic data, and ablations on small models to choose among them
 - Training compute: C ≈ 6ND, FLOPs, GPU-hours, model FLOPs utilization (MFU), and
   cost
@@ -118,6 +119,14 @@ Dolma, and DeepSeek-V3.
   (2024; the pipeline, with an ablation for each step, behind the open
   [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) corpus and its
   classifier-filtered subset FineWeb-Edu).
+- Paper: Penedo et al., [FineWeb2: One Pipeline to Scale Them
+  All](https://arxiv.org/abs/2506.20920) (2025; the FineWeb pipeline adapted to every
+  language — language identification, filtering, and deduplication tuned per language
+  on nine test languages, with a rebalancing step that weighs duplicates by quality —
+  and scaled to more than 1,000 languages as the open
+  [FineWeb2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) corpus; the
+  starting point for pretraining data in a language other than English, and a source
+  of held-out second-language text for the Chapter 13 milestone).
 - Paper: Soldaini et al., [Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://arxiv.org/abs/2402.00159)
   (2024; a documented data pipeline, including the removal of personal
   information, released together with its tools).

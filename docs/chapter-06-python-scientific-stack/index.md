@@ -116,6 +116,11 @@ Tutorial.
   (free; uv is a package and project manager that replaces venv and pip; together
   with the Projects guide on the same site, the page shows how to create a project,
   add NumPy and pytest, and run tests in an isolated environment).
+- Hands-on: Sasha Rush, [Tensor Puzzles](https://github.com/srush/Tensor-Puzzles)
+  (free, MIT license; a Colab notebook of 21 puzzles, each reimplementing one NumPy
+  function — `cumsum`, `outer`, `bincount` — in one line with broadcasting, indexing,
+  `arange`, and `where` only, without loops or library calls; practice for the
+  loop-free functions of the milestone).
 
 ## Milestone
 

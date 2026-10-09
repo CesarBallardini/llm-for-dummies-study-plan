@@ -56,7 +56,9 @@ and chapter 8 of *Hands-On Large Language Models*. Follow the AI Agents Course i
 parallel, and read Husain, the Yan et al. report, and the monitoring chapters of
 *Designing Machine Learning Systems* while the system is evaluated and improved; the
 CS329S lecture notes are a free substitute for that book. When time is short, omit
-the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al.
+the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al. Read the
+OWASP list and the context-engineering article in the agents and guardrails weeks;
+Langfuse is one choice of tracing tool for the monitoring weeks.
 
 ### University courses
 
@@ -67,6 +69,15 @@ the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al.
   continual learning; the course predates LLM applications and treats these subjects
   for machine learning systems in general; *Designing Machine Learning Systems*,
   listed under Books, is based on it).
+- Stanford — [CME295: Transformers & Large Language
+  Models](https://cme295.stanford.edu/) by Afshine Amidi and Shervine Amidi (free;
+  optional; first listed in Chapter 12; in the [Fall 2026
+  syllabus](https://cme295.stanford.edu/syllabus/), lecture 6 "AI Agents" covers tool
+  calling, the Model Context Protocol (MCP), memory and retrieval, context
+  compaction, and coding agents, and is more current than the 2023 LLM Bootcamp
+  listed under MOOCs; lecture 7 "Agentic LLMs" of the [Autumn 2025
+  recordings](https://www.youtube.com/watch?v=h-7S6HNq0Vg) covers RAG, function
+  calling, and ReAct).
 
 ### Online courses (MOOCs)
 
@@ -109,6 +120,12 @@ the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al.
   "Prompt Engineering"; chapter 7, "Advanced Text Generation Techniques and Tools";
   and chapter 8, "Semantic Search and Retrieval-Augmented Generation", each with
   runnable code).
+- Book: Dan Jurafsky and James H. Martin, *Speech and Language Processing* (3rd ed.
+  draft, August 2026 release) — [official
+  page](https://web.stanford.edu/~jurafsky/slp3/) (free PDF; Chapter 11 "Information
+  Retrieval and RAG": classical and dense retrieval, the evaluation of retrieval
+  systems, retrieval-augmented generation, and the evaluation of question answering;
+  the textbook counterpart of the retrieval path of the milestone).
 
 ### Lectures, papers and articles
 
@@ -150,6 +167,24 @@ the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al.
   checkpoints, and evaluation tools are published), described in Groeneveld et al.,
   [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
   (2024).
+- Docs: [Model Context Protocol](https://modelcontextprotocol.io/) (free, open
+  standard, introduced by Anthropic in 2024; the specification and documentation of
+  the protocol through which an agent discovers and calls the tools, resources, and
+  prompts exposed by a server; the interface behind the tool-calling topic in current
+  agent frameworks).
+- Article: Anthropic Applied AI team, [Effective context engineering for AI
+  agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+  (2025; the sequel to Building Effective Agents: the context window as the scarce
+  resource of an agent, and compaction, structured note-taking, sub-agents, and
+  just-in-time retrieval as the methods that manage it).
+- Article: OWASP, [Top 10 for LLM Applications
+  2025](https://genai.owasp.org/llm-top-10/) (free; the ten risk classes of an LLM
+  application, from prompt injection and sensitive information disclosure to
+  excessive agency and unbounded consumption; a checklist for the guardrails topic
+  and the milestone), with Simon Willison's [prompt injection
+  series](https://simonwillison.net/series/prompt-injection/) (2022 onward; the
+  running record of the attack class, why input filtering does not solve it, and the
+  design rules that limit the damage when an agent reads untrusted text).
 
 ### Tools and hands-on
 
@@ -165,6 +200,10 @@ the DeepLearning.AI RAG course, Made With ML, and the survey by Gao et al.
   [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993) (2018; the
   intended use, evaluation data, and limitations that the publisher of a model
   documents).
+- Tool: [Langfuse](https://langfuse.com/docs) (open source, self-hostable; tracing of
+  prompts, retrieval calls, and model outputs, prompt versioning, and scoring of
+  logged traces; one implementation of the logging, tracing, and feedback topics,
+  usable to monitor the milestone system).
 
 ## Milestone
 

@@ -56,6 +56,13 @@ only, and omit HELM, Inspect, and the model reports.
   and public assignments; start here: lecture 12, "Evaluation", covers perplexity,
   knowledge, instruction-following, and agent benchmarks, and validity problems such
   as contamination).
+- Stanford — [CME295: Transformers & Large Language
+  Models](https://cme295.stanford.edu/) by Afshine Amidi and Shervine Amidi (free;
+  optional; first listed in Chapter 12; in the [Fall 2026
+  syllabus](https://cme295.stanford.edu/syllabus/), lecture 7 "LLM evaluation" covers
+  benchmarks, LLM-as-a-judge with its biases and pitfalls, and the evaluation of
+  agents; lecture 8 "LLM evaluation" of the [Autumn 2025
+  recordings](https://www.youtube.com/watch?v=8fNP4N46RRo) is the earlier version).
 
 ### Online courses (MOOCs)
 

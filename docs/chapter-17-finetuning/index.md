@@ -102,6 +102,12 @@ or Unsloth, starting from the LLM Course notebooks.
   4, "Instruction Fine-Tuning", is a short account of chat templates, prompt
   masking, and SFT practice in current post-training pipelines; the rest of the
   book belongs to Chapter 18).
+- Book: Dan Jurafsky and James H. Martin, *Speech and Language Processing* (3rd ed.
+  draft, August 2026 release) — [official
+  page](https://web.stanford.edu/~jurafsky/slp3/) (free PDF; Chapter 8
+  "Post-training", sections 8.1 "Instruction Tuning" and 8.2 "Parameter Efficient
+  Fine Tuning": a short textbook account of SFT and LoRA; sections 8.3–8.4, on
+  learning from preferences, belong to Chapter 18).
 
 ### Lectures, papers and articles
 

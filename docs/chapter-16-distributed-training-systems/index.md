@@ -159,6 +159,11 @@ FlashAttention-3 papers.
   GPT-2 (124M) reproduction on one node of eight A100 GPUs in about 4 days, and now
   points to nanochat as the successor; the code base for the milestone, first
   listed in Chapter 14).
+- Hands-on: Sasha Rush, [Triton Puzzles](https://github.com/srush/Triton-Puzzles)
+  (free, Apache 2.0 license; optional: a Colab notebook of puzzles in Triton, the
+  kernel language of CS336 lecture 6, that builds from loads and stores to a
+  FlashAttention-style kernel and runs on the Triton interpreter without a GPU;
+  preparation for the FlashAttention-2 part of CS336 Assignment 2).
 
 ## Milestone
 

@@ -95,6 +95,12 @@ two Anthropic papers, and read only the summary sections of the Tülu 3 paper.
   here: the main text of this chapter; read chapters 3–6 and 8, which cover the
   training overview, instruction tuning, reward modeling, RL, and direct alignment
   algorithms, then chapters 11 and 14 on preference data and over-optimization).
+- Book: Dan Jurafsky and James H. Martin, *Speech and Language Processing* (3rd ed.
+  draft, August 2026 release) — [official
+  page](https://web.stanford.edu/~jurafsky/slp3/) (free PDF; Chapter 8
+  "Post-training", sections 8.3 "Learning from Preferences" and 8.4 "LLM Alignment
+  via Preference-Based Learning": reward models, RLHF, and DPO in textbook form;
+  sections 8.1–8.2 were read in Chapter 17).
 
 ### Lectures, papers and articles
 

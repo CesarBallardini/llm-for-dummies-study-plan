@@ -6,8 +6,9 @@ This book is a self-study course that starts at **college algebra** and ends at
 is used to check progress before the next chapter begins.
 
 All required material is free or low-cost, and every resource is linked directly.
-The university courses listed publish their lecture videos, slides, and
-assignments openly, even when enrollment for credit is restricted.
+Most of the university courses listed publish their lecture videos, slides, and
+assignments openly, even when enrollment for credit is restricted; where a course
+publishes only some of these, its entry says so.
 
 !!! tip "Two ways in"
 
@@ -103,7 +104,7 @@ chapters of each title). The links point to the official pages, and free titles 
 | Prince — *Understanding Deep Learning* | Chapters 8–10, 12 | [Free](https://udlbook.github.io/udlbook) |
 | Zhang, Lipton, Li, Smola — *Dive into Deep Learning* | Chapters 5, 9, 11 | [Free](https://d2l.ai/) |
 | Nielsen — *Neural Networks and Deep Learning* | Chapters 9, 10 | [Free](http://neuralnetworksanddeeplearning.com/) |
-| Jurafsky & Martin — *Speech and Language Processing, 3rd ed.* | Chapters 11, 13 | [Free](https://web.stanford.edu/~jurafsky/slp3) |
+| Jurafsky & Martin — *Speech and Language Processing, 3rd ed.* | Chapters 11–14, 17, 18, 22 | [Free](https://web.stanford.edu/~jurafsky/slp3) |
 | Raschka — *Build a Large Language Model (From Scratch)* | Chapters 12–15, 17, 23 | [Official page](https://www.manning.com/books/build-a-large-language-model-from-scratch), free code and videos |
 | Alammar & Grootendorst — *Hands-On Large Language Models* | Chapters 13, 14, 17, 22 | [Site + free code](https://llm-book.com/) |
 | Tazi, Mom, et al. (Hugging Face) — *The Ultra-Scale Playbook* | Chapters 7, 16 | [Free](https://huggingface.co/spaces/nanotron/ultrascale-playbook) |
@@ -130,6 +131,7 @@ chapters of each title). The links point to the official pages, and free titles 
 | Zero to Hero | Karpathy | [10](chapter-10-neural-networks-from-scratch/index.md), [12](chapter-12-transformer-architecture/index.md), [13](chapter-13-tokenization-embeddings/index.md), [14](chapter-14-llm-from-scratch/index.md), [16](chapter-16-distributed-training-systems/index.md) | Free |
 | CS224N NLP with Deep Learning | Stanford | [11](chapter-11-nlp-foundations/index.md), [12](chapter-12-transformer-architecture/index.md) | Free (videos) |
 | CS25 Transformers United | Stanford | [12](chapter-12-transformer-architecture/index.md) | Free (videos, optional) |
+| CME295 Transformers & Large Language Models | Stanford | [12](chapter-12-transformer-architecture/index.md), [19](chapter-19-reasoning-rl/index.md), [20](chapter-20-evaluation-benchmarks/index.md), [22](chapter-22-operate-improve-open-llm/index.md) | Free (videos, optional) |
 | CS336 Language Modeling from Scratch | Stanford | [12](chapter-12-transformer-architecture/index.md), [13](chapter-13-tokenization-embeddings/index.md), [14](chapter-14-llm-from-scratch/index.md), [15](chapter-15-pretraining-at-scale/index.md), [16](chapter-16-distributed-training-systems/index.md), [17](chapter-17-finetuning/index.md), [18](chapter-18-alignment-rlhf/index.md), [19](chapter-19-reasoning-rl/index.md), [20](chapter-20-evaluation-benchmarks/index.md), [21](chapter-21-inference-serving/index.md), [23](chapter-23-capstone/index.md) | Free |
 | The LLM Course | Hugging Face | [12](chapter-12-transformer-architecture/index.md), [13](chapter-13-tokenization-embeddings/index.md), [14](chapter-14-llm-from-scratch/index.md), [17](chapter-17-finetuning/index.md), [19](chapter-19-reasoning-rl/index.md) | Free, huggingface.co/learn |
 | CS324 Foundation Models | Stanford | [15](chapter-15-pretraining-at-scale/index.md) | Free (optional) |
