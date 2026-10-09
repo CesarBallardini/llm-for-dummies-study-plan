@@ -4,16 +4,18 @@
 
 ## What you will learn
 
-This chapter assembles the components of Chapters 12 and 13 into a complete
-GPT-style large language model (LLM) and trains it. It covers the model definition
-(embedding tables, a stack of Transformer blocks, and the output layer that predicts
-the next token), the cross-entropy training objective, and a training loop with the
-AdamW optimizer, learning-rate warmup and cosine decay, gradient clipping, and
-periodic evaluation on held-out data. It then covers text generation with greedy
-decoding, temperature, and top-k and top-p sampling. The implementation is verified
-by loading the released GPT-2 weights into it, and the trained model is saved and
-published on the Hugging Face Hub. Chapters 15 and 16 scale the same procedure up
-in data, model size, and hardware.
+This chapter assembles the components of Chapters 12 and 13 into a complete GPT-style
+large language model (LLM) and trains it. It covers the model definition (embedding
+tables, a stack of Transformer blocks, and the output layer that predicts the next
+token), the cross-entropy training objective, and a training loop with the AdamW
+optimizer, learning-rate warmup and cosine decay, gradient clipping, and periodic
+evaluation on held-out data. It then covers text generation with greedy decoding,
+temperature, and top-k and top-p sampling. The implementation is verified by loading
+the released GPT-2 weights into it, and the trained model is saved and published on
+the Hugging Face Hub. Chapters 15 and 16 scale the same procedure up in data, model
+size, and hardware. An optional closing section looks inside the trained model — the
+residual stream, what its attention heads compute, and the induction heads that
+perform in-context copying — as a first step into mechanistic interpretability.
 
 ## Topics
 
@@ -32,6 +34,8 @@ in data, model size, and hardware.
 - Saving and loading checkpoints (model and optimizer state)
 - Loading the released GPT-2 weights into the implementation as a correctness check
 - Publishing a model on the Hugging Face Hub
+- An optional first look inside the trained model: the residual stream, attention
+  heads as circuits, and induction heads
 
 ## Resources
 
@@ -39,15 +43,17 @@ in data, model size, and hardware.
 this chapter: type and run the code chapter by chapter, with the companion videos as
 a second explanation. Karpathy's "Let's build GPT" was watched in Chapter 12 and is
 not repeated here; continue with the first section of "Let's reproduce GPT-2 (124M)"
-for the model definition and the weight-loading check, and with its optimizer
-section for AdamW, gradient clipping, and the learning-rate schedule, with nanoGPT
-open as a reference implementation. Read Holtzman et al. and "How to generate
-text" before writing the sampling code, the TinyStories paper before choosing the
-milestone corpus, and Chapter 4 of the Hugging Face LLM Course before publishing
-the checkpoint. CS336 lectures 2–3 and the Transformer part of Assignment 1 are a
+for the model definition and the weight-loading check, and with its optimizer section
+for AdamW, gradient clipping, and the learning-rate schedule, with nanoGPT open as a
+reference implementation. Read Holtzman et al. and "How to generate text" before
+writing the sampling code, the TinyStories paper before choosing the milestone
+corpus, and Chapter 4 of the Hugging Face LLM Course before publishing the
+checkpoint. CS336 lectures 2–3 and the Transformer part of Assignment 1 are a
 stricter, test-driven route to the same result; when time is short, omit them
-together with *Hands-On Large Language Models*, the GPT-3 paper, nanochat, and
-llm.c.
+together with *Hands-On Large Language Models*, the GPT-3 paper, nanochat, and llm.c.
+The interpretability items — Chapter 10 of Jurafsky and Martin, ARENA Chapter 1, the
+Transformer Circuits article, and TransformerLens — form an optional closing section
+after the milestone; omit them when time is short.
 
 ### University courses
 
@@ -74,6 +80,13 @@ llm.c.
   (free; about 2 hours; the Hugging Face Hub, uploading a checkpoint, and writing a
   model card, as required by the milestone; Chapter 2 "Using Transformers" covers
   loading and saving models).
+- ARENA — [ARENA curriculum](https://github.com/callummcdougall/ARENA_3.0) by Callum
+  McDougall et al. (free, open source; Colab notebooks and web pages with solutions;
+  optional: Chapter 1 "Transformer Interpretability", whose first two exercise sets
+  build a GPT-2-style Transformer and then locate induction heads in it with
+  TransformerLens; the later sets (indirect object identification, superposition,
+  sparse autoencoders) are a longer second project; Chapter 0 repeats the material of
+  Chapters 9 and 10 and can be skipped).
 
 ### Books
 
@@ -90,6 +103,14 @@ llm.c.
   notebooks on [GitHub](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models);
   Chapter 3 "Looking Inside Transformer LLMs" follows one forward pass of a released
   model, including the decoding strategy and the key-value cache).
+- Book: Dan Jurafsky and James H. Martin, *Speech and Language Processing* (3rd ed.
+  draft, August 2026 release) — [official
+  page](https://web.stanford.edu/~jurafsky/slp3/) (free PDF; Chapter 7 "Transformers
+  and Pretraining", sections 7.6–7.8: decoding, pretraining with next-token
+  prediction, and the sizes, data, and compute of current models; sections 7.1–7.5
+  were read in Chapter 12; Chapter 10 "Interpretability" — probing, the logit lens,
+  sparse autoencoders, causal techniques, and induction heads — belongs to the
+  optional closing section of this chapter).
 
 ### Lectures, papers and articles
 
@@ -110,6 +131,14 @@ llm.c.
   (2023; a synthetic corpus of short stories on which models below 10M parameters
   produce fluent text; the [dataset](https://huggingface.co/datasets/roneneldan/TinyStories)
   makes the milestone feasible on a single GPU).
+- Article: Nelson Elhage, Neel Nanda, Catherine Olsson et al. (Anthropic), [A
+  Mathematical Framework for Transformer
+  Circuits](https://transformer-circuits.pub/2021/framework/index.html) (2021;
+  optional: rewrites the model of this chapter as a residual stream read and written
+  by independent attention heads, each split into a QK circuit that computes the
+  attention pattern and an OV circuit that moves information, and shows how two heads
+  compose into an induction head; read the sections on zero- and one-layer models
+  with the from-scratch implementation open).
 
 ### Tools and hands-on
 
@@ -123,6 +152,10 @@ llm.c.
 - Code: Andrej Karpathy, [llm.c](https://github.com/karpathy/llm.c) (2024;
   optional: GPT-2 training written in plain C and CUDA without PyTorch; shows every
   forward and backward kernel explicitly).
+- Code: [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens)
+  (free, open source, MIT license; optional: loads GPT-2 and other open models with
+  hooks on every activation, so that attention patterns can be inspected and
+  individual heads ablated; the library used by the ARENA exercises).
 
 ## Milestone
 

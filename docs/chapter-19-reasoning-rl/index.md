@@ -77,6 +77,14 @@ hand-written training loop.
   [videos](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) +
   slides; optional: a ten-lecture introduction at a slower pace than CS 285; the
   relevant lectures are 1–3 on MDPs and value functions and 7 on policy gradients).
+- Stanford — [CME295: Transformers & Large Language
+  Models](https://cme295.stanford.edu/) by Afshine Amidi and Shervine Amidi (free;
+  optional; first listed in Chapter 12; in the [Fall 2026
+  syllabus](https://cme295.stanford.edu/syllabus/), lecture 4 "Reinforcement learning
+  with LLMs" covers reward design, policy gradients, PPO-based RLHF, GRPO with
+  verifiable rewards, and on-policy distillation in one session; lecture 6 "LLM
+  reasoning" of the [Autumn 2025
+  recordings](https://www.youtube.com/watch?v=k5Fh-UgTuCo) is the earlier version).
 
 ### Online courses (MOOCs)
 

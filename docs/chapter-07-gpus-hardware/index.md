@@ -139,6 +139,11 @@ from Chapters 9, 15, and 16 as indicated in each note.
   [RunPod](https://www.runpod.io/), or [Vast.ai](https://vast.ai/) (paid; billed by
   the hour whether or not the GPU is in use, so shut the instance down after each
   session).
+- Hands-on: Sasha Rush, [GPU Puzzles](https://github.com/srush/GPU-Puzzles) (free,
+  MIT license; optional: a Colab notebook of 14 puzzles in Numba CUDA, from an
+  element-wise map through threads, blocks, shared memory, and prefix sums to a
+  matrix multiplication, with a walkthrough video; a hands-on companion to the Mark
+  Harris article, in Python syntax).
 
 ## Milestone
 

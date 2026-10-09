@@ -169,6 +169,13 @@ sequence models).
   here to a training loop; the method is defined in Paulius Micikevicius et al.,
   [Mixed Precision Training](https://arxiv.org/abs/1710.03740) (ICLR, 2018), listed
   in Chapter 5).
+- Cheatsheet: Afshine Amidi and Shervine Amidi, [CS 230 Deep Learning
+  cheatsheets](https://stanford.edu/~shervine/teaching/cs-230/) (free; web and PDF,
+  in 12 languages including Spanish; the Deep Learning tips and tricks sheet lists
+  initialization, optimizers, learning-rate schedules, regularization, and
+  training-run diagnostics on two pages; the Convolutional and Recurrent Neural
+  Networks sheets preview the overview topic of this chapter and Chapter 11; the CS
+  229 sheets are listed in Chapter 8).
 
 ## Milestone
 

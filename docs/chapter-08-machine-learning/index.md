@@ -112,6 +112,12 @@ of the Specialization, Learning From Data, and the books marked advanced.
 - Docs: scikit-learn, [Metrics and scoring: quantifying the quality of predictions](https://scikit-learn.org/stable/modules/model_evaluation.html)
   (current docs; reference for accuracy, precision, recall, F1 score, confusion
   matrices, ROC curves, and dummy baselines, as required by the milestone).
+- Cheatsheet: Afshine Amidi and Shervine Amidi, [CS 229 Machine Learning
+  cheatsheets](https://stanford.edu/~shervine/teaching/cs-229/) (free; web and PDF,
+  in 12 languages including Spanish; the Supervised Learning, Unsupervised Learning,
+  and Tips and tricks sheets condense the chapter — models, loss functions,
+  regularization, cross-validation, and metrics — to a few pages each; a review sheet
+  after the main course, not a first explanation).
 
 ## Milestone
 
