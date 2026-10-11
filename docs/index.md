@@ -23,6 +23,14 @@ publishes only some of these, its entry says so.
     to the section, and the milestone that proves you arrived. Beginning from zero,
     take [Path 0 — Foundations first](learning-paths/foundations-first.md).
 
+    **On its own**: some of the courses and books this book cites are complete
+    routes through large language models, or through applications built on them,
+    without needing the rest of the book. [Standalone courses and
+    books](standalone-llm-courses-and-books.md) lists them, with what each
+    covers, what it assumes, and where it is free. The [bibliography](bibliography.md)
+    lists every book, paper and long-form article the chapters cite, with
+    authors, year, publisher and whether it is free to read online.
+
 This book is released under the [MIT License](license.md). That license covers the
 book and the code written for its milestones, and nothing else: every course,
 textbook, paper, video, dataset, and model linked from the chapters keeps the terms

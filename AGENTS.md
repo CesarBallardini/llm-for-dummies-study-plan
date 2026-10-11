@@ -11,6 +11,14 @@ see Git conventions below).
   `STUDY_PLAN.md` as a course: college algebra -> building/training/operating open LLMs.
   The markdown is the product; `STUDY_PLAN.md` is the single source of truth for chapter
   scope, resources, and URLs.
+- `docs/bibliography.md` = web-only list of every book, paper and long-form article the plan cites
+  (compiled from `STUDY_PLAN.md`; re-check after multi-chapter resource changes).
+- **Rule:** whenever a change to the course (a chapter, `STUDY_PLAN.md`, a resource list, an appendix or a
+  learning path) adds, removes, replaces or corrects a book, paper, long-form article, course or URL, update
+  `docs/bibliography.md` and `docs/standalone-llm-courses-and-books.md` in the same change. If a change touches
+  neither page, say so in the summary.
+- `docs/standalone-llm-courses-and-books.md` = web-only page listing the cited courses and books that are
+  complete routes through LLMs or LLM applications; linked from `docs/index.md` and `## How to Use This Plan`.
 - `docs/learning-paths/` = 6 goal-first routes over the same chapters (index + Path 0-5),
   mirroring Appendix D of `STUDY_PLAN.md`; edit both, plus the "Two ways in" admonition in
   `docs/index.md`. Cores come from the Map of Goals to Chapters, but verify that row against
@@ -39,13 +47,14 @@ see Git conventions below).
 
 ## Commands
 
-- The Makefile (`lint`, `format`, `types`, `docs`, `docs-serve`, `precommit`, `clean`) is
+- The Makefile (`lint`, `format`, `types`, `docs`, `docs-serve`, `check`, `links`, `precommit`, `clean`) is
   the single interface, but it uses `grep`/`rm` so it only works from Git Bash/WSL, not
   pwsh. On Windows run the equivalent `uv run --frozen <tool> ...` directly.
 - Everything runs `uv run --frozen` — the lockfile is authoritative. Keep `uv.lock` in sync
   with `pyproject.toml` (a pre-commit hook enforces `uv lock --check`).
-- Full pre-merge check: `make precommit` (runs all hooks incl. `markdown-link-check`, which
-  hits the network) — plus `make docs` if `docs/` changed.
+- Full pre-merge check: `make precommit` plus `make check` (lint, both type checkers, strict
+  docs build). `make links` runs `markdown-link-check` (a manual-stage hook, serial, needs the
+  network); run it whenever external URLs changed. It is not part of `make precommit`.
 
 ## Docs (MkDocs) gotchas
 
@@ -70,7 +79,7 @@ see Git conventions below).
   them by hand after any multi-chapter resource change.
 - A wrapped continuation line starting with a bare `+ ` parses as a new Markdown list item
   (silent rendering bug, not caught by `--strict`); use `and` at a line wrap instead.
-- `markdown-link-check` runs URL checks concurrently; in some sandboxed environments that
+- `markdown-link-check` (`make links`) hits the network; in some sandboxed environments that
   produces spurious `Status: 0`/403/429 on live URLs. Re-verify a flagged link with a few
   sequential `curl -A "Mozilla/5.0" -L` retries before treating it as dead.
 
