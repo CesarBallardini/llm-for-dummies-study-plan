@@ -17,6 +17,13 @@ by URL instead of being downloaded (see the second table below).
 | `understanding_deep_learning_2026.pdf` | Prince — *Understanding Deep Learning* | 09 Feb 2026 release | github [release v5.0.3](https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf) | CC BY-NC-ND 4.0 (MIT Press Open Access) | Parts I, III, IV; the deep-learning reference text of this course |
 | `udl_answer_booklet_2026.pdf` | Prince — answers to selected questions | — | github [raw](https://github.com/udlbook/udlbook/raw/main/UDL_Answer_Booklet_Students.pdf) | CC BY-NC-ND 4.0 | Self-check on UDL exercises |
 | `udl_errata_2026.pdf` | Prince — errata for the PDF | — | github [raw](https://github.com/udlbook/udlbook/raw/main/UDL_Errata.pdf) | — | Keep next to the book |
+| `abramson-2021-precalculus-2nd.pdf` | Abramson et al. — *Precalculus* (2nd ed.) | 2021 | OpenStax [precalculus-2e](https://openstax.org/details/books/precalculus-2e) | CC BY 4.0 | Chapter 1 |
+| `herman-2016-calculus-volume-2.pdf`, `herman-2016-calculus-volume-3.pdf` | Strang, Herman et al. — *Calculus* Vol. 2 and Vol. 3 | 2016 | OpenStax [Volume 2](https://openstax.org/details/books/calculus-volume-2), [Volume 3](https://openstax.org/details/books/calculus-volume-3) | CC BY-NC-SA 4.0 | Chapter 2 (Vol. 1 is in `books/`) |
+| `strang-2017-calculus-3rd.pdf` | Strang — *Calculus* (3rd ed.) | 2017 | MIT OpenCourseWare [RES.18-001](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) | CC BY-NC-SA 4.0 | Chapter 2 |
+| `hefferon-2020-linear-algebra-4th.pdf`, `hefferon-2020-linear-algebra-4th-answers.pdf` | Hefferon — *Linear Algebra* (4th ed.) and its answers | 2020 | [jheffero.w3.uvm.edu/linearalgebra](https://jheffero.w3.uvm.edu/linearalgebra/) | CC BY-SA 4.0 / GFDL | Chapter 3 |
+| `murphy-2022-probabilistic-machine-learning-full.pdf` | Murphy — *Probabilistic Machine Learning: An Introduction* | 2022 | probml [book1.pdf](https://github.com/probml/pml-book/releases/latest/download/book1.pdf) | CC BY-NC-ND 4.0 | Chapter 4 (the older `murphy-2022-probabilistic-machine-learning.pdf` is only a 17-page table of contents) |
+| `tazi-2025-ultra-scale-playbook.pdf` | Tazi, Mom et al. — *The Ultra-Scale Playbook* | 2025 | Hugging Face [Space](https://huggingface.co/spaces/nanotron/ultrascale-playbook) | Apache 2.0 | Chapters 7, 16 |
+| `lambert-2026-reinforcement-learning-from-human-feedback.pdf` | Lambert — *Reinforcement Learning from Human Feedback* | 2026 | [rlhfbook.com/book.pdf](https://rlhfbook.com/book.pdf) | CC BY-NC-SA 4.0 | Chapters 17–19 |
 
 > Sizes: 16.8M / 2.7M / 19.1M / 24M / 10.7M / 25.3M / 21.3M / 1.7M / 1.2M bytes. All verify as `%PDF`.
 > The `403/404` notes from earlier research are why two ISL download pages exist: the

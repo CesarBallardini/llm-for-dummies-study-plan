@@ -40,6 +40,21 @@ Three rules keep the paths honest. Each has already caught a real error here:
   (Path 4), "Two places this path leans outside itself" (Path 3), "The optional finisher"
   (Path 5).
 
+`docs/bibliography.md` is likewise web-only: every book, paper and long-form article the plan cites, with
+year, publisher and free/paid status. It is compiled from `STUDY_PLAN.md`, so re-check it after a
+multi-chapter resource change, with Appendices A and B.
+
+**Rule: keep `docs/bibliography.md` and `docs/standalone-llm-courses-and-books.md` current whenever you
+change anything in the course.** A change to a chapter, to `STUDY_PLAN.md`, to a resource list, to an
+appendix or to a learning path that adds, removes, replaces or corrects a book, paper, long-form article,
+course or URL must update both pages in the same change: add the new entry, drop the removed one, fix the
+edition, year, publisher, link or free/paid status. When a change touches neither page, say so in the
+summary instead of skipping the check silently.
+
+`docs/standalone-llm-courses-and-books.md` is a web-only page (no `STUDY_PLAN.md` section): the courses and
+books the plan cites that are complete routes through LLMs or LLM applications. It is linked from the
+"Two ways in" admonition in `docs/index.md` and from `## How to Use This Plan`; keep those two in sync.
+
 Week totals on each page are summed from the chapters' `**Time.**` lines and must equal the
 `**Time.**` line of the matching Appendix D section; re-sum both when a chapter estimate
 changes.
@@ -88,12 +103,15 @@ make docs-serve    # live reload at http://127.0.0.1:8000
 make lint          # ruff check . && ruff format --check .
 make format        # ruff format . && ruff check --fix .
 make types         # pyright && pyrefly check  (both must pass; different engines on purpose)
-make precommit     # pre-commit run --all-files (markdown-link-check hits the network)
+make check         # lint + types + docs: the CI build plus the type gates, in one command
+make links         # markdown-link-check over every tracked .md file (manual-stage hook, hits the network, serial)
+make precommit     # pre-commit run --all-files (the commit-time hooks; link checking is NOT among them)
 make clean
 ```
 
-There is no pytest suite yet. The pre-merge check is `make precommit`, plus `make docs`
-whenever `docs/` or `mkdocs.yml` changed.
+There is no pytest suite yet. The pre-merge check is `make precommit` plus `make check`.
+Run `make links` as well whenever a resource list or any external URL changed; it is slow and
+needs the network, which is why it is not part of `make check`.
 
 ## MkDocs gotchas (these break the strict build)
 
@@ -107,10 +125,11 @@ whenever `docs/` or `mkdocs.yml` changed.
 - `mkdocs` is capped `<2` and `mkdocs-material>=9.7.5` deliberately (MkDocs 2.0 drops the
   plugin system and YAML config). Never raise the cap. Material prints a non-fatal
   "MkDocs 2.0" advisory on every build; ignore it.
-- Every chapter cites many external URLs and the `markdown-link-check` pre-commit hook
-  fails on dead ones. It runs URL checks concurrently and, in some sandboxed/CI network
-  environments, that concurrency produces spurious `Status: 0`/403/429 failures on live
-  URLs. Before changing or removing a flagged link, re-check it with a few sequential
+- Every chapter cites many external URLs and the `markdown-link-check` hook fails on dead
+  ones. It is registered in the manual stage only (a whole-repo pass at commit time got
+  github.com throttled), so run it with `make links`; it runs serially for that reason. Even
+  so, in some sandboxed/CI network environments it produces spurious `Status: 0`/403/429
+  failures on live URLs. Before changing or removing a flagged link, re-check it with a few sequential
   `curl -A "Mozilla/5.0" -L` retries a couple of seconds apart — most flagged links turn
   out to be transient, not dead.
 - A wrapped line whose continuation starts with a bare `+ ` (e.g. a link followed by

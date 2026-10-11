@@ -18,3 +18,7 @@ site/
 books/**/*.pdf
 books/**/*.djvu
 books/**/*.epub
+papers/**/*.pdf
+
+# Local Markdown conversions of books/ (scripts/pdf_to_md.py); never tracked.
+books-md/

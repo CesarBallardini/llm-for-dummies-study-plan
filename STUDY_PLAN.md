@@ -10,6 +10,8 @@ This plan, and the book built from it, are released under the MIT License; the f
 
 There are two ways to use it. Straight through, in chapter order, which is what the plan is built for. Or from a goal: Appendix D sets out six learning paths, each naming a destination, the chapters that lead there in order, the prerequisites it assumes down to the section, and the milestone that proves the goal was reached.
 
+A third page stands apart from the chapters: some of the courses and books the plan cites are themselves complete routes through large language models, or through applications built on them. The web edition lists them, with what each covers, what it assumes, and where it is free: https://katra.ballardini.com.ar/llm-for-dummies-study-plan/standalone-llm-courses-and-books/ . A bibliography of every book, paper and long-form article the plan cites, with authors, year, publisher and whether it is free to read online, is at https://katra.ballardini.com.ar/llm-for-dummies-study-plan/bibliography/
+
 The plan has six parts and 24 chapters. Every chapter has the same structure:
 
 - **Goals**: the scope of the chapter and how the rest of the course uses it.

@@ -29,22 +29,23 @@ repos:
       - id: no-commit-to-branch
         args: [--branch=main]
 
-  # Every chapter cites many external URLs -- a dead link should fail the
-  # commit, not rot silently in the book. Disabled here (2026-09-17):
-  # checking a whole-repo commit's ~600 links in one pass gets github.com
-  # throttled on this network hard enough to make the hook unreliable
-  # rather than informative -- every link it has flagged has verified live
-  # on manual recheck. Re-enable by uncommenting once commits are back to
-  # their normal, much smaller size, and periodically run it by hand in
-  # the meantime: uv run --frozen pre-commit run markdown-link-check --all-files
-  # (a config file passed via `-c` can add timeouts/retries and per-site
+  # Every chapter cites many external URLs -- a dead link should not rot
+  # silently in the book. The hook does NOT run at commit time (disabled
+  # 2026-09-17): checking a whole-repo commit's ~600 links in one pass gets
+  # github.com throttled on this network hard enough to make it unreliable
+  # rather than informative -- every link it has flagged has verified live on
+  # manual recheck. It lives in the manual stage instead, run on demand with
+  # `make links` (serial, so the checks do not hit one host concurrently).
+  # A config file passed via `-c` can add timeouts/retries and per-site
   # ignores if GitHub throttling or a WAF-blocked site becomes a recurring
-  # problem again; see this commit's history for a worked example)
-  # - repo: https://github.com/tcort/markdown-link-check
-  #   rev: v3.15.0
-  #   hooks:
-  #     - id: markdown-link-check
-  #       args: [-q]
+  # problem; see this commit's history for a worked example.
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: v3.15.0
+    hooks:
+      - id: markdown-link-check
+        args: [-q]
+        stages: [manual]
+        require_serial: true
 
   - repo: local
     hooks:

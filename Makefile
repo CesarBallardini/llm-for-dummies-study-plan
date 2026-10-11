@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help install lint format types docs docs-serve precommit clean
+.PHONY: help install lint format types docs docs-serve check links precommit clean
 
 help: ## Show this list of available targets
 	@grep -E '^[a-zA-Z0-9_-]+:.*## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
@@ -26,6 +26,11 @@ docs: ## Build the documentation site (--strict: warnings are failures)
 
 docs-serve: ## Serve the documentation locally with live reload
 	uv run --frozen mkdocs serve
+
+check: lint types docs ## Run what CI and the pre-merge review need: lint, both type checkers, strict docs build
+
+links: ## Check every external link (manual-stage hook; needs network, run serially)
+	uv run --frozen pre-commit run --hook-stage manual markdown-link-check --all-files
 
 precommit: ## Run all pre-commit hooks against every file
 	uv run --frozen pre-commit run --all-files
