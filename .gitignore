@@ -18,7 +18,8 @@ site/
 books/**/*.pdf
 books/**/*.djvu
 books/**/*.epub
-papers/**/*.pdf
+# Downloaded papers (the bibliography lists them); local only, never tracked.
+papers/
 
 # Local Markdown conversions of books/ (scripts/pdf_to_md.py); never tracked.
 books-md/
