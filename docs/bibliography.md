@@ -14,7 +14,8 @@ documentation, tools and datasets are not listed.
 - **Free online?** has three values:
   - **Free** means the full text is legally and freely available from the official source.
   - **Partial** means part of it is free, such as code, notebooks, chapter summaries or sample chapters.
-  - **Paid** means it must be bought or borrowed.
+  - **Paid** means it must be bought or borrowed. **Paid, hard to get** marks a paid book that is also difficult
+    to obtain: no open-access edition and no free copy through the usual routes.
 - Papers with more than three authors show the first author followed by "et al.".
 - Books that exist only as a website, or whose official edition is a website, carry the link to the official site
   in the title. All other works are cited through the official page given in the chapter that uses them.
@@ -63,6 +64,7 @@ documentation, tools and datasets are not listed.
 | 16 | [*How to Scale Your Model: A Systems View of LLMs on TPUs*](https://jax-ml.github.io/scaling-book/) | Jacob Austin et al. | 2025 | Google DeepMind | Free |
 | 17 | [*Reinforcement Learning from Human Feedback*](https://rlhfbook.com/) | Nathan Lambert | 2026 | Manning (print); free online edition | Free (online), paid print |
 | 19 | *Reinforcement Learning: An Introduction* (2nd ed.) | Richard S. Sutton, Andrew G. Barto | 2018 | MIT Press | Free |
+| 12 | [*Super Study Guide: Transformers & Large Language Models*](https://superstudy.guide/transformers-large-language-models/) (optional) | Afshine Amidi, Shervine Amidi | n.d. (not stated in the plan) | Self-published | Free (read online; paper and PDF editions are sold) |
 
 ### 1.2 Partly free (code, notebooks, summaries or samples only)
 
@@ -89,8 +91,7 @@ documentation, tools and datasets are not listed.
 | 4 | *All of Statistics: A Concise Course in Statistical Inference* | Larry Wasserman | 2004 | Springer | Paid |
 | 6 | *Fluent Python* (2nd ed.) | Luciano Ramalho | 2022 | O'Reilly | Paid |
 | 7 | *Programming Massively Parallel Processors* (4th ed.) | Wen-mei W. Hwu, David B. Kirk, Izzat El Hajj | 2022 | Elsevier (Morgan Kaufmann) | Paid |
-| A | *Large Language Models: A Deep Dive* | Uday Kamath et al. | 2024 | Springer | Paid (see verification note 6) |
-| 12 | *Super Study Guide: Transformers & Large Language Models* (mentioned as not required) | Afshine Amidi, Shervine Amidi | n.d. (not stated in the plan) | Self-published | Paid |
+| A | *Large Language Models: A Deep Dive: Bridging Theory and Practice* | Uday Kamath, Kevin Keenan, Garrett Somers, Sarah Sorenson | 2024 | Springer | Paid, hard to get (see verification note 6) |
 
 ---
 
@@ -236,9 +237,9 @@ documentation, tools and datasets are not listed.
 
 | Group | Count |
 | --- | --- |
-| Books, free | 36 |
+| Books, free | 37 |
 | Books, partly free | 8 |
-| Books, paid | 10 |
+| Books, paid | 9 |
 | **Books** | **54** |
 | Papers, free | 108 |
 | Papers, paid | 1 (Rumelhart et al., 1986) |
@@ -256,7 +257,9 @@ Check these entries before relying on them:
    that edition exists in print.
 4. **Downey, *Think Python* 3rd ed.** I listed O'Reilly as publisher, which is not in the plan.
 5. **Burkov, Hefferon, Bekman, Amidi & Amidi.** I listed these as self-published. I did not check that.
-6. **Kamath et al., *Large Language Models: A Deep Dive*.** I marked it paid. It may be open access on Springer.
+6. **Kamath et al., *Large Language Models: A Deep Dive: Bridging Theory and Practice*.** Marked paid and hard to get
+   (Uday Kamath, Kevin Keenan, Garrett Somers and Sarah Sorenson; Springer, 2024). Only the Springer preview chapters
+   are free, and I found no sign that the full text is open access.
 7. **Jurafsky and Martin, *SLP3*.** The plan says "August 2026 release". The year 2026 is the draft date,
    not a print edition.
 8. **DeepSeek-R1.** The Nature publication in 2025 is from memory.

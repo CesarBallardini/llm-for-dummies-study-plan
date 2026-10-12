@@ -23,6 +23,11 @@ from pathlib import Path
 
 MIN_CHAPTERS = 5
 FALLBACK_PAGES = 30
+PLAIN_HEADING_RE = re.compile(r"[\w ,:'’&.?-]+")
+MAX_HEADING_WORDS = 12
+MIN_PAGES_PER_CHAPTER = 2  # outline levels whose median entry is shorter are not chapters
+SHORT_DOC_PAGES = 100  # below this many pages, fewer headings are enough to split
+MIN_SECTIONS_SHORT = 3
 HEADING_ZONE = 300  # points from the top of the page where a chapter heading is looked for
 HEADING_RATIO = 1.8  # a heading is at least this many times the body font size
 CHAPTER_RE = re.compile(r'^\s*(?:chapter|CHAPTER)\s+\d+', re.MULTILINE)
@@ -48,6 +53,10 @@ def chapter_ranges(doc) -> tuple[list[tuple[str, int, int]], str]:  # noqa: ANN0
             continue
         nxt = next((b[1] for b in bounds[i + 1 :] if b[1] > start), len(doc))
         ranges.append((title.strip(), start, nxt - 1))
+    if sorted(e - s + 1 for _, s, e in ranges)[len(ranges) // 2] < MIN_PAGES_PER_CHAPTER:
+        return fallback_ranges(doc)  # a bookmark per page is a scanner artefact, not chapters
+    if len(ranges) < 2 * MIN_CHAPTERS and len(headings := heading_ranges(doc)) > len(ranges):
+        return headings, 'large page headings (the outline is incomplete)'
     if ranges and ranges[0][1] > 0:
         ranges.insert(0, ('Front matter', 0, ranges[0][1] - 1))
     return ranges, f'outline level {level}'
@@ -79,7 +88,8 @@ def page_headings(doc) -> list[tuple[int, float, str, str]]:  # noqa: ANN001
         heading = ' '.join(t for sz, t in big if sz == size)
         below = [(sz, t) for sz, t in spans if body + 3 <= sz < size]
         subtitle = ' '.join(t for sz, t in below if sz == below[0][0]) if below else ''
-        found.append((i, size, heading, subtitle))
+        if PLAIN_HEADING_RE.fullmatch(heading) and len(heading.split()) <= MAX_HEADING_WORDS:  # not OCR noise
+            found.append((i, size, heading, subtitle))
     return found
 
 
@@ -97,7 +107,7 @@ def heading_ranges(doc) -> list[tuple[str, int, int]]:  # noqa: ANN001
         for i, size, head, sub in found
         if size == mode and re.search(r'\w{2,}|^\d+$', head)
     ]
-    if len(starts) < MIN_CHAPTERS:
+    if len(starts) < (MIN_CHAPTERS if len(doc) >= SHORT_DOC_PAGES else MIN_SECTIONS_SHORT):
         return []
     ranges = [(title, s, e - 1) for (s, title), e in zip(starts, [*(p for p, _ in starts[1:]), len(doc)], strict=True)]
     if starts[0][0] > 0:
