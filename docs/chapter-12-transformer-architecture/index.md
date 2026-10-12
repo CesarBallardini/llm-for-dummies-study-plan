@@ -78,8 +78,8 @@ rest of that course previews Chapters 13–22.
   as a review after Chapter 22; the free
   [cheatsheet](https://github.com/afshinea/stanford-cme-295-transformers-large-language-models)
   (MIT license; 15 languages, Spanish included) is the written companion, and the
-  authors' paid *Super Study Guide: Transformers & Large Language Models* is not
-  required).
+  authors' [*Super Study Guide: Transformers & Large Language Models*](https://superstudy.guide/transformers-large-language-models/) is free online
+  and optional).
 
 ### Online courses (MOOCs)
 

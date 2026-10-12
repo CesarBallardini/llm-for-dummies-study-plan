@@ -22,7 +22,7 @@ by URL instead of being downloaded (see the second table below).
 | `strang-2017-calculus-3rd.pdf` | Strang — *Calculus* (3rd ed.) | 2017 | MIT OpenCourseWare [RES.18-001](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) | CC BY-NC-SA 4.0 | Chapter 2 |
 | `hefferon-2020-linear-algebra-4th.pdf`, `hefferon-2020-linear-algebra-4th-answers.pdf` | Hefferon — *Linear Algebra* (4th ed.) and its answers | 2020 | [jheffero.w3.uvm.edu/linearalgebra](https://jheffero.w3.uvm.edu/linearalgebra/) | CC BY-SA 4.0 / GFDL | Chapter 3 |
 | `murphy-2022-probabilistic-machine-learning-full.pdf` | Murphy — *Probabilistic Machine Learning: An Introduction* | 2022 | probml [book1.pdf](https://github.com/probml/pml-book/releases/latest/download/book1.pdf) | CC BY-NC-ND 4.0 | Chapter 4 (the older `murphy-2022-probabilistic-machine-learning.pdf` is only a 17-page table of contents) |
-| `tazi-2025-ultra-scale-playbook.pdf` | Tazi, Mom et al. — *The Ultra-Scale Playbook* | 2025 | Hugging Face [Space](https://huggingface.co/spaces/nanotron/ultrascale-playbook) | Apache 2.0 | Chapters 7, 16 |
+| (web only, no PDF held) | Tazi, Mom et al. — *The Ultra-Scale Playbook* | 2025 | Hugging Face [Space](https://huggingface.co/spaces/nanotron/ultrascale-playbook) | Apache 2.0 | Chapters 7, 16 |
 | `lambert-2026-reinforcement-learning-from-human-feedback.pdf` | Lambert — *Reinforcement Learning from Human Feedback* | 2026 | [rlhfbook.com/book.pdf](https://rlhfbook.com/book.pdf) | CC BY-NC-SA 4.0 | Chapters 17–19 |
 
 > Sizes: 16.8M / 2.7M / 19.1M / 24M / 10.7M / 25.3M / 21.3M / 1.7M / 1.2M bytes. All verify as `%PDF`.
@@ -35,7 +35,7 @@ by URL instead of being downloaded (see the second table below).
 | Book | Where | Note |
 | --- | --- | --- |
 | Blitzstein & Hwang — *Introduction to Probability* (2nd ed.) | [probabilitybook.net](https://probabilitybook.net) | Official free 2nd edition (Stat 110). The "Google Drive" and library PDFs in circulation are not officially distributed; use the site. Used in Chapter 4. |
-| Goodfellow, Bengio, Courville — *Deep Learning* | [deeplearningbook.org](https://www.deeplearningbook.org) | Official free online edition (HTML per-chapter; `front_matter.pdf`). Cite chapters 1–12 for Part I/III rigor. The `janishar/mit-deep-learning-book-pdf` repo is a community render of uneven quality; cite the canonical HTML. |
+| Goodfellow, Bengio, Courville — *Deep Learning* | [deeplearningbook.org](https://www.deeplearningbook.org) | Official free online edition (HTML per-chapter; no official full PDF). Cite chapters 1–12 for Part I/III rigor. The `janishar/mit-deep-learning-book-pdf` repo is a community render of uneven quality; cite the canonical HTML. |
 
 ## Paid (buy or borrow)
 
