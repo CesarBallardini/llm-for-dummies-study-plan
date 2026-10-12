@@ -7,19 +7,24 @@ Run without touching the project environment (the converters are not project dep
 Arguments may be folders or single PDF files.
 
 Chapters come from the PDF outline. The outline level used is the shallowest one with at least
-MIN_CHAPTERS entries. A PDF without an outline is split where a "Chapter N" heading starts a page,
+MIN_CHAPTERS entries. A PDF without an outline is split where a page opens with a heading set much
+larger than the body text (the most common such size), then where a "Chapter N" heading starts a page,
 or else into fixed blocks of FALLBACK_PAGES pages, and the manifest flags it for manual review.
 """
 
 import argparse
 import hashlib
 import re
+import shutil
 import sys
+import tempfile
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
 MIN_CHAPTERS = 5
 FALLBACK_PAGES = 30
+HEADING_ZONE = 300  # points from the top of the page where a chapter heading is looked for
+HEADING_RATIO = 1.8  # a heading is at least this many times the body font size
 CHAPTER_RE = re.compile(r'^\s*(?:chapter|CHAPTER)\s+\d+', re.MULTILINE)
 
 
@@ -48,8 +53,63 @@ def chapter_ranges(doc) -> tuple[list[tuple[str, int, int]], str]:  # noqa: ANN0
     return ranges, f'outline level {level}'
 
 
+def page_headings(doc) -> list[tuple[int, float, str, str]]:  # noqa: ANN001
+    """Return (page, size, heading, subtitle) for pages whose top region holds text much larger than the body."""
+    pages = []
+    sizes: dict[float, int] = {}
+    for i in range(len(doc)):
+        spans = [
+            (round(s['size'], 1), s['text'].strip())
+            for b in doc[i].get_text('dict')['blocks']
+            if b['type'] == 0 and b['bbox'][1] < HEADING_ZONE
+            for ln in b['lines']
+            for s in ln['spans']
+            if s['text'].strip()
+        ]
+        pages.append(spans)
+        for size, text in spans:
+            sizes[size] = sizes.get(size, 0) + len(text)
+    body = max(sizes, key=lambda k: sizes[k]) if sizes else 10.0
+    found = []
+    for i, spans in enumerate(pages):
+        big = [s for s in spans if s[0] >= max(HEADING_RATIO * body, body + 6)]
+        if not big:
+            continue
+        size = max(s[0] for s in big)
+        heading = ' '.join(t for sz, t in big if sz == size)
+        below = [(sz, t) for sz, t in spans if body + 3 <= sz < size]
+        subtitle = ' '.join(t for sz, t in below if sz == below[0][0]) if below else ''
+        found.append((i, size, heading, subtitle))
+    return found
+
+
+def heading_ranges(doc) -> list[tuple[str, int, int]]:  # noqa: ANN001
+    """Return chapter ranges from the most common large heading size, or [] when there are too few."""
+    found = page_headings(doc)
+    if not found:
+        return []
+    counts: dict[float, int] = {}
+    for _, size, _, _ in found:
+        counts[size] = counts.get(size, 0) + 1
+    mode = max(counts, key=lambda k: counts[k])
+    starts = [
+        (i, f'Chapter {head} {sub}'.strip() if head.isdigit() else head)
+        for i, size, head, sub in found
+        if size == mode and re.search(r'\w{2,}|^\d+$', head)
+    ]
+    if len(starts) < MIN_CHAPTERS:
+        return []
+    ranges = [(title, s, e - 1) for (s, title), e in zip(starts, [*(p for p, _ in starts[1:]), len(doc)], strict=True)]
+    if starts[0][0] > 0:
+        ranges.insert(0, ('Front matter', 0, starts[0][0] - 1))
+    return ranges
+
+
 def fallback_ranges(doc) -> tuple[list[tuple[str, int, int]], str]:  # noqa: ANN001
-    """Split by 'Chapter N' page headings, else into fixed blocks."""
+    """Split by large page headings, then by 'Chapter N' page headings, else into fixed blocks."""
+    ranges = heading_ranges(doc)
+    if ranges:
+        return ranges, 'large page headings (no outline)'
     starts = [i for i in range(len(doc)) if CHAPTER_RE.match(doc[i].get_text()[:200] or '')]
     if len(starts) >= MIN_CHAPTERS:
         ends = [*starts[1:], len(doc)]
@@ -62,6 +122,17 @@ def fallback_ranges(doc) -> tuple[list[tuple[str, int, int]], str]:  # noqa: ANN
         for s in range(0, len(doc), FALLBACK_PAGES)
     ]
     return blocks, f'fixed {FALLBACK_PAGES}-page blocks (no outline) -- REVIEW'
+
+
+def relocate_images(md: str, scratch: Path, img_dir: Path, pdf_name: str) -> str:
+    """Move extracted images from the scratch folder into img_dir with short names and fix the links."""
+    for image in list(scratch.iterdir()):
+        short = image.name.removeprefix(pdf_name).lstrip('-_.')
+        image.replace(img_dir / short)
+        for prefix in (scratch.as_posix(), str(scratch)):
+            for sep in ('/', '\\'):
+                md = md.replace(f'{prefix}{sep}{image.name}', f'images/{short}')
+    return md
 
 
 def convert(args: tuple[str, str]) -> tuple[str, str, int, str]:
@@ -79,6 +150,10 @@ def convert(args: tuple[str, str]) -> tuple[str, str, int, str]:
     if not has_text:
         method += ' -- NO TEXT LAYER, OCR NEEDED'
     img_dir = out / 'images'
+    img_dir.mkdir(exist_ok=True)
+    # pymupdf4llm names each image after the PDF, so a long title overruns Windows' 260-character path limit.
+    # Images are extracted to a short scratch folder and moved to img_dir under short names.
+    scratch = Path(tempfile.mkdtemp(prefix='pmd'))
     index = [f'# {name}', '', f'Source: `{pdf}` ({len(doc)} pages). Chapters found by: {method}.', '']
     for n, (title, first, last) in enumerate(ranges):
         if last < first:
@@ -87,16 +162,17 @@ def convert(args: tuple[str, str]) -> tuple[str, str, int, str]:
             doc,
             pages=list(range(first, last + 1)),
             write_images=True,
-            image_path=str(img_dir),
+            image_path=str(scratch),
             image_format='jpg',
             dpi=120,
             show_progress=False,
         )
-        md = md.replace(str(img_dir).replace('\\', '/'), 'images').replace(str(img_dir), 'images')
+        md = relocate_images(md, scratch, img_dir, Path(pdf).name)
         fname = f'{n:02d}-{slugify(title)}.md'
         (out / fname).write_text(f'# {title}\n\n{md}', encoding='utf-8')
         index.append(f'- [{title}]({fname}) (pages {first + 1}-{last + 1})')
     (out / 'index.md').write_text('\n'.join(index) + '\n', encoding='utf-8')
+    shutil.rmtree(scratch, ignore_errors=True)
     return name, 'ok' if has_text else 'no-text', len(ranges), method
 
 
